@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>knowledge_bank</name>
+  <version>0.0.1</version>
+  <description>
+    Knowledge bank for RoboCup@HOME2026
+  </description>
+
+  <maintainer email="marco.soriano5102@comunidad.unam.mx">
+    Marco Soriano
+  </maintainer>
+
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+

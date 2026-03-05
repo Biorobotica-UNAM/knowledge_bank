@@ -1,0 +1,30 @@
+# Lista de palabras de interés para filtrado en Justina
+categories:
+  names:
+    - "adel"
+    - "angel"
+    - "axel"
+    - "charlie"
+    - "jane"
+    - "jules"
+    - "morgan"
+    - "paris"
+    - "robin"
+    - "simone"
+    
+  interests:
+    - "sports"
+    - "music"
+    - "movies"
+    - "reading"
+    - "programming"
+    - "football"
+    - "cooking"
+
+  drinks:
+    - "coke"
+    - "soda"
+    - "lipton"
+    - "fanta"
+    - "milk"
+    - "fresca"

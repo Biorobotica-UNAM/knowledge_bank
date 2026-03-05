@@ -1,3 +1,6 @@
 phrases:
   - "{name_2}, meet {name_1}. {name_1} likes {drink_1}."
   - "{name_2}, this is {name_1}. {name_1} enjoys {drink_1}."
+  - "{name_2}, meet {name_1}. {name_1}'s favorite drink is {drink_1}."
+  - "{name_2}, this is {name_1}. {name_1}'s favorite drink is {drink_1}."
+  - "{name_2}, please meet {name_1}. {name_1} likes {drink_1}."

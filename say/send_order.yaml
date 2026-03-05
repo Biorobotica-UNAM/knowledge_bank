@@ -1,0 +1,11 @@
+phrases:
+  - "The customer ordered {order_1}."
+  - "My customer would like {order_1}."
+  - "The order from the customer is {order_1}."
+  - "The customer asked for {order_1}."
+  - "I have an order for {order_1}."
+  - "The requested order is {order_1}."
+  - "My customer's order is {order_1}."
+  - "The customer requested {order_1}."
+  - "I am delivering the order information: {order_1}."
+  - "Here is the order from the customer: {order_1}."

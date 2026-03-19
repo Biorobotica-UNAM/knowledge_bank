@@ -53,3 +53,10 @@ categories:
     - "iced tea"
     - "latte"
     - "cappuccino"
+
+labels:
+  name_1: "john"
+  name_2: "james"
+  name_3: "jorge"
+  drink_1: "coffee"
+  loc_1: "kitchen"

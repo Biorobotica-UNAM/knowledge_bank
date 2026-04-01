@@ -1,0 +1,11 @@
+phrases:
+  - "Alright {name_host}, let me see where you are."
+  - "{name_host}, let me look around for you."
+  - "Okay {name_host}, let me see if I can spot you."
+  - "I am looking for you now, {name_host}."
+  - "Let me see where you are, {name_host}."
+  - "Alright, {name_host}, I am looking around for you."
+  - "Okay {name_host}, let me look for you."
+  - "{name_host}, let me try to find you."
+  - "Let me look around and find you, {name_host}."
+  - "Alright {name_host}, let me spot you first."

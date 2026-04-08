@@ -1,30 +1,73 @@
-# Lista de palabras de interés para filtrado en Justina
 categories:
   names:
-    - "adel"
-    - "angel"
-    - "axel"
-    - "charlie"
-    - "jane"
-    - "jules"
-    - "morgan"
-    - "paris"
-    - "robin"
-    - "simone"
-    
+    - james
+    - john
+    - michael
+    - david
+    - robert
+    - william
+    - daniel
+    - matthew
+    - joseph
+    - thomas
+    - charles
+    - christopher
+    - andrew
+    - josh
+    - anthony
+    - mark
+    - paul
+    - steven
+    - kevin
+    - brian
+    - morgan
   interests:
-    - "sports"
-    - "music"
-    - "movies"
-    - "reading"
-    - "programming"
-    - "football"
-    - "cooking"
-
+    - sports
+    - music
+    - movies
+    - reading
+    - programming
+    - football
+    - cooking
   drinks:
-    - "coke"
-    - "soda"
-    - "lipton"
-    - "fanta"
-    - "milk"
-    - "fresca"
+    - water
+    - coffee
+    - tea
+    - milk
+    - orange juice
+    - apple juice
+    - cola
+    - coke
+    - pepsi
+    - lemonade
+    - sparkling water
+    - hot chocolate
+    - beer
+    - wine
+    - energy drink
+    - smoothie
+    - milkshake
+    - iced tea
+    - latte
+    - cappuccino
+labels:
+  name_host: josh
+  name_1: john
+  name_2: morgan
+  face_1: unknown
+  customer_1: robert
+  customer_2: david
+  drink_1: water
+  drink_2: cola
+  order_1: coke
+  order_2: juice
+  object_1: apple
+  cutlery: none
+  kitchen_bar: location_1
+  current_location: entrance
+  guest_age_1: young
+  guest_gender_1: man
+  guest_shirt_color_1: blue
+  guest_age_2: adult
+  guest_gender_2: woman
+  guest_shirt_color_2: red

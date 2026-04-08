@@ -1,0 +1,6 @@
+phrases:
+  - "{name_1}, meet {name_2}. {name_2} likes {drink_2}."
+  - "{name_1}, this is {name_2}. {name_2} enjoys {drink_2}."
+  - "{name_1}, meet {name_2}. {name_2}'s favorite drink is {drink_2}."
+  - "{name_1}, this is {name_2}. {name_2}'s favorite drink is {drink_2}."
+  - "{name_1}, please meet {name_2}. {name_2} likes {drink_2}."

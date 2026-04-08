@@ -52,7 +52,7 @@ categories:
     - cappuccino
 labels:
   name_host: josh
-  name_1: john
+  name_1: ruben
   name_2: morgan
   face_1: unknown
   customer_1: robert
@@ -65,9 +65,17 @@ labels:
   cutlery: none
   kitchen_bar: location_1
   current_location: entrance
-  guest_age_1: young
-  guest_gender_1: man
-  guest_shirt_color_1: blue
-  guest_age_2: adult
-  guest_gender_2: woman
-  guest_shirt_color_2: red
+  # Guest_1
+  guest_age_1: unknown
+  guest_gender_1: unknown
+  guest_shirt_color_1: unknown
+  guest_hair_1: unknown
+  guest_emotion_1: unknown
+  guest_accessories_1: unknown
+  # Guests_2
+  guest_age_2: unknown
+  guest_gender_2: unknown
+  guest_shirt_color_2: unknown
+  guest_hair_2: unknown
+  guest_emotion_2: unknown
+  guest_accessories_2: unknown

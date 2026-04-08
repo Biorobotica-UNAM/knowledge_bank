@@ -479,16 +479,16 @@ user_follow:
   - "As soon as you are ready, please let me know and I will go with you."
 
 visual_description_name_1:
-  - "There is already another guest in the living room, a {guest_age_1} {guest_gender_1} wearing a {guest_shirt_color_1} shirt."
-  - "There is already someone in the living room, a {guest_age_1} {guest_gender_1} in a {guest_shirt_color_1} shirt."
-  - "Another guest is already waiting inside, a {guest_age_1} {guest_gender_1} wearing a {guest_shirt_color_1} shirt."
-  - "You will meet another guest in the living room, a {guest_age_1} {guest_gender_1} with a {guest_shirt_color_1} shirt."
-  - "Someone is already waiting in the living room, a {guest_age_1} {guest_gender_1} wearing a {guest_shirt_color_1} shirt."
-  - "There is already a guest inside, a {guest_age_1} {guest_gender_1} in a {guest_shirt_color_1} shirt."
-  - "Another guest is already in the living room, a {guest_age_1} {guest_gender_1} with a {guest_shirt_color_1} shirt."
-  - "There is already someone there, a {guest_age_1} {guest_gender_1} wearing a {guest_shirt_color_1} shirt."
-  - "A guest is already in the living room, a {guest_age_1} {guest_gender_1} in a {guest_shirt_color_1} shirt."
-  - "Someone else is already in the living room, a {guest_age_1} {guest_gender_1} with a {guest_shirt_color_1} shirt."
+  - "There is already another guest in the living room, a {guest_age_1} {guest_gender_1} with {guest_hair_1} and a {guest_shirt_color_1}."
+  - "There is already someone in the living room, a {guest_emotion_1} {guest_age_1} {guest_gender_1} in a {guest_shirt_color_1} wearing {guest_accessories_1}."
+  - "Another guest is already waiting inside, a {guest_gender_1} with {guest_hair_1} who seems {guest_emotion_1}."
+  - "You will meet another guest in the living room, a {guest_age_1} {guest_gender_1} wearing a {guest_shirt_color_1} and {guest_accessories_1}."
+  - "Someone is already waiting in the living room, a {guest_age_1} {guest_gender_1} with a {guest_shirt_color_1}. They have {guest_hair_1}."
+  - "There is already a guest inside, a {guest_emotion_1} person in a {guest_shirt_color_1} wearing {guest_accessories_1}."
+  - "Another guest is already in the living room, a {guest_age_1} {guest_gender_1} who has {guest_hair_1} and is wearing {guest_accessories_1}."
+  - "There is already someone there, a {guest_age_1} {guest_gender_1} looking {guest_emotion_1} in a {guest_shirt_color_1}."
+  - "A guest is already in the living room, a {guest_gender_1} with {guest_hair_1} and {guest_accessories_1}."
+  - "Someone else is already in the living room, a {guest_age_1} {guest_gender_1} with a {guest_shirt_color_1} and they look {guest_emotion_1}."
 
 wait_for_command_continue:
   - "Please say 'continue' to proceed."

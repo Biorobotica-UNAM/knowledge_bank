@@ -16,8 +16,3 @@ send_order:
   - "I have an order for {order}."
   - "The requested order is {order}."
   - "Here is the order from the customer {order}."
-
-memorize_face:
-  - "Please look at me so I can remember your face."
-  - "Kindly look at me so I can remember you."
-  - "Could you look at me for a moment so I can recognize you later?"

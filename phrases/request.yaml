@@ -45,3 +45,8 @@ receive_present:
   - "Your guest brought this for you."
   - "This is a gift from your guest."
   - "Your guest asked me to give you this."
+
+memorize_face:
+  - "Please look at me so I can remember your face."
+  - "Kindly look at me so I can remember you."
+  - "Could you look at me for a moment so I can recognize you later?"

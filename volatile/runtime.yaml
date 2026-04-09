@@ -1,47 +1,114 @@
 # --- ROBOT ---
-robot_name:       Justina
-current_location: entrance
-holding:          nothing
+robot_name:
+  - Justina
+
+current_location:
+  - entrance
+
+holding:
+  - nothing
 
 # --- PERSONAS ---
-name_host: Joshua
-name_1:    unknown
-name_2:    unknown
-drink_1:   unknown
-drink_2:   unknown
-order_1:   unknown
-order_2:   unknown
+name_host:
+  - Joshua
+
+name_1:
+  - unknown
+
+name_2:
+  - unknown
+
+drink_1:
+  - unknown
+
+drink_2:
+  - unknown
+
+order_1:
+  - unknown
+
+order_2:
+  - unknown
 
 # --- ATRIBUTOS ---
-guest_gender_1:      unknown
-guest_age_1:         unknown
-guest_shirt_color_1: unknown
-guest_hair_1:        unknown
-guest_emotion_1:     unknown
-guest_accessories_1: unknown
+guest_gender_1:
+  - unknown
 
-guest_gender_2:      unknown
-guest_age_2:         unknown
-guest_shirt_color_2: unknown
-guest_hair_2:        unknown
-guest_emotion_2:     unknown
-guest_accessories_2: unknown
+guest_age_1:
+  - unknown
+
+guest_shirt_color_1:
+  - unknown
+
+guest_hair_1:
+  - unknown
+
+guest_emotion_1:
+  - unknown
+
+guest_accessories_1:
+  - unknown
+
+guest_gender_2:
+  - unknown
+
+guest_age_2:
+  - unknown
+
+guest_shirt_color_2:
+  - unknown
+
+guest_hair_2:
+  - unknown
+
+guest_emotion_2:
+  - unknown
+
+guest_accessories_2:
+  - unknown
 
 # --- OBJETOS ---
-item:     unknown
-category: none
+item:
+  - unknown
 
-object_locations:
-  apple:  kitchen
-  milk:   pantry
-  cup:    kitchen_table
-  tray:   living_room
-  snack:  pantry
-  spoon:  kitchen_table
-  dish:   kitchen_table
-  fork:   kitchen_table
-  knife:  kitchen_table
-  bowl:   kitchen_table
-  cereal: cabinet
-  plate:  kitchen_table
-  napkin: kitchen_table
+category:
+  - none
+
+apple_location:
+  - kitchen
+
+milk_location:
+  - pantry
+
+cup_location:
+  - kitchen_table
+
+tray_location:
+  - living_room
+
+snack_location:
+  - pantry
+
+spoon_location:
+  - kitchen_table
+
+dish_location:
+  - kitchen_table
+
+fork_location:
+  - kitchen_table
+
+knife_location:
+  - kitchen_table
+
+bowl_location:
+  - kitchen_table
+
+cereal_location:
+  - cabinet
+
+plate_location:
+  - kitchen_table
+
+napkin_location:
+  - kitchen_table

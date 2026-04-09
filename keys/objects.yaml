@@ -13,17 +13,43 @@ drinks:
   - hot chocolate
   - beer
   - wine
-  - smoothie	
+  - smoothie
   - latte
   - cappuccino
 
 # --- CATEGORIAS ---
-categories:
-  cutlery:   [fork, knife, spoon, chopsticks]
-  tableware: [plate, bowl, cup, mug, glass]
-  trash:     [napkin, wrapper, can, bottle, tissue]
-  food:      [apple, banana, cereal, bread, milk, juice]
-  cleaning:  [sponge, cloth, brush]
+cutlery:
+  - fork
+  - knife
+  - spoon
+  - chopsticks
+
+tableware:
+  - plate
+  - bowl
+  - cup
+  - mug
+  - glass
+
+trash:
+  - napkin
+  - wrapper
+  - can
+  - bottle
+  - tissue
+
+food:
+  - apple
+  - banana
+  - cereal
+  - bread
+  - milk
+  - juice
+
+cleaning:
+  - sponge
+  - cloth
+  - brush
 
 # --- GUSTOS ---
 interests:

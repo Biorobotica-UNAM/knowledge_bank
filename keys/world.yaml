@@ -3,19 +3,32 @@ robot:
   holding: nothing
 
 known_objects:
-  - name: apple       room: kitchen
-  - name: milk        room: pantry
-  - name: cup         room: kitchen_table
-  - name: tray        room: living_room
-  - name: snack       room: pantry
-  - name: spoon       room: kitchen_table
-  - name: dish        room: kitchen_table
-  - name: fork        room: kitchen_table
-  - name: knife       room: kitchen_table
-  - name: bowl        room: kitchen_table
-  - name: cereal      room: cabinet
-  - name: plate       room: kitchen_table
-  - name: napkin      room: kitchen_table
+  - name: apple
+    room: kitchen
+  - name: milk
+    room: pantry
+  - name: cup
+    room: kitchen_table
+  - name: tray
+    room: living_room
+  - name: snack
+    room: pantry
+  - name: spoon
+    room: kitchen_table
+  - name: dish
+    room: kitchen_table
+  - name: fork
+    room: kitchen_table
+  - name: knife
+    room: kitchen_table
+  - name: bowl        
+    room: kitchen_table
+  - name: cereal
+    room: cabinet
+  - name: plate
+    room: kitchen_table
+  - name: napkin
+    room: kitchen_table
 
 known_locations:
   - kitchen

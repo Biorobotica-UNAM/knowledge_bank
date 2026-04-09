@@ -11,5 +11,5 @@ find_person:
   - "I am looking for you now, {name}."
 
 # --- OBJECT ---
-find_guest:
+find_object:
   - "Let me see if there is {object}."

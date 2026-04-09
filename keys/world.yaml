@@ -1,0 +1,40 @@
+robot:
+  room:    living_room
+  holding: nothing
+
+known_objects:
+  - name: apple       room: kitchen
+  - name: milk        room: pantry
+  - name: cup         room: kitchen_table
+  - name: tray        room: living_room
+  - name: snack       room: pantry
+  - name: spoon       room: kitchen_table
+  - name: dish        room: kitchen_table
+  - name: fork        room: kitchen_table
+  - name: knife       room: kitchen_table
+  - name: bowl        room: kitchen_table
+  - name: cereal      room: cabinet
+  - name: plate       room: kitchen_table
+  - name: napkin      room: kitchen_table
+
+known_locations:
+  - kitchen
+  - living_room
+  - bedroom
+  - bathroom
+  - entrance
+  - pantry
+  - office
+  - corridor
+  - kitchen_table
+  - bookshelf
+  - coatrack
+  - shelf
+  - dishwasher
+  - breakfast_bar
+  - cabinet
+  - laundry_machine
+  - laundry_basket
+  - laundry_table
+  - trash_bin
+  - inspection_point

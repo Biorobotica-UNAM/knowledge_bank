@@ -1,0 +1,12 @@
+# --- OBJETOS ---
+identify_object:
+  - "I found a {object}."
+  - "This is a {object}."
+  - "I have detected a {object}."
+  - "There is a {object} here."
+  - "This appears to be a {object}."
+
+identify_category:
+  - "I found a {object}, which belongs to the {category} category."
+  - "This is a {object}. Category {category}."
+  - "I identified a {object}. It is a {category}."

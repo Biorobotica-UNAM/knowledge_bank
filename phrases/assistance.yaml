@@ -1,0 +1,15 @@
+# --- AYUDAS ---
+wait_for_door:
+  - "Please open the door so I can proceed."
+  - "I am waiting for the door to be opened."
+  - "Kindly open the door so I may pass."
+
+wait_for_command_continue:
+  - "Please say 'continue' to proceed."
+  - "I am waiting for the word 'continue'."
+  - "Kindly say 'continue' when you are ready."
+
+ask_open:
+  - "Excuse me, could you please open the door for me?"
+  - "Would you mind opening the door, please?"
+  - "Could you kindly open the door, please?"

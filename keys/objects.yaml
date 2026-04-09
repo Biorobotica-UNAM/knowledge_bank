@@ -1,0 +1,35 @@
+# --- BEBIDAS ---
+drinks:
+  - water
+  - coffee
+  - tea
+  - milk
+  - orange juice
+  - apple juice
+  - cola
+  - coke
+  - pepsi
+  - lemonade
+  - hot chocolate
+  - beer
+  - wine
+  - smoothie	
+  - latte
+  - cappuccino
+
+# --- CATEGORIAS ---
+categories:
+  cutlery:   [fork, knife, spoon, chopsticks]
+  tableware: [plate, bowl, cup, mug, glass]
+  trash:     [napkin, wrapper, can, bottle, tissue]
+  food:      [apple, banana, cereal, bread, milk, juice]
+  cleaning:  [sponge, cloth, brush]
+
+# --- GUSTOS ---
+interests:
+  - sports
+  - music
+  - movies
+  - reading
+  - programming
+  - cooking

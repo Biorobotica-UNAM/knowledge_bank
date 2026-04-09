@@ -1,0 +1,23 @@
+# --- INTERACCIÓN ---
+greet_name:
+  - "Nice to meet you, {name}."
+  - "Hi {name}, nice to meet you."
+  - "It's a pleasure to meet you, {name}."
+  - "Great to meet you, {name}."
+
+react_drink:
+  - "Ooh, {drink}, great choice."
+  - "Wonderful, {drink} it is."
+  - "{drink}, coming right up."
+  - "That is a lovely choice, {drink}."
+
+send_order:
+  - "The customer ordered {order}."
+  - "I have an order for {order}."
+  - "The requested order is {order}."
+  - "Here is the order from the customer {order}."
+
+memorize_face:
+  - "Please look at me so I can remember your face."
+  - "Kindly look at me so I can remember you."
+  - "Could you look at me for a moment so I can recognize you later?"

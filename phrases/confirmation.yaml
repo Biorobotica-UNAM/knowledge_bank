@@ -1,0 +1,17 @@
+# --- ORDENES ---
+confirm_order:
+  - "You ordered {order}. Is that correct?"
+  - "Just to confirm, you ordered {order}."
+  - "If I understood correctly, you ordered {order}. Didn´t you?"
+
+# --- NOMBRE ---
+confirm_name:
+  - "You are {name}. Is that correct?"
+  - "Just to confirm, you are {name}. Right?"
+  - "Is {name} your name?"
+
+# --- BEBIDA ---
+confirm_drink:
+  - "You like {drink}. Is that correct?"
+  - "Just to confirm, you enjoy {drink}. Right?"
+  - "Is {drink} your prefered drink?"

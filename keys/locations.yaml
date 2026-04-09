@@ -1,0 +1,24 @@
+# --- NAMES ---
+display_names:
+  kitchen_table:       "the kitchen table"
+  kitchen_bar:         "the kitchen bar"
+  dishwasher:          "the dishwasher"
+  breakfast_bar:       "the breakfast bar"
+  cabinet:             "the cabinet"
+  laundry_machine:     "the laundry machine"
+  laundry_basket:      "the laundry basket"
+  laundry_table:       "the laundry table"
+  laundry_table_floor: "the laundry area"
+  living_room:         "the living room"
+  entrance:            "the entrance"
+  exit:                "the exit"
+  inspection_point:    "the inspection point"
+  trash_bin:           "the trash bin"
+
+# --- PLACES ---
+areas:
+  kitchen:    [kitchen_table, kitchen_bar, dishwasher, breakfast_bar, cabinet]
+  laundry:    [laundry_machine, laundry_basket, laundry_table, laundry_table_floor]
+  living:     [living_room, entrance, exit]
+  inspection: [inspection_point]
+  trash:      [trash_bin]

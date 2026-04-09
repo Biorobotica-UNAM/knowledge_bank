@@ -1,0 +1,11 @@
+# --- PERONAS ---
+people_description:
+  - "There is already another guest in the living room, a {guest_age} {guest_gender} with {guest_hair} and a {guest_shirt_color} shirt."
+  - "Another guest is already waiting inside, a {guest_gender} with {guest_hair} who seems {guest_emotion}."
+  - "You will meet another guest, a {guest_age} {guest_gender} wearing a {guest_shirt_color} shirt and {guest_accessories}."
+  - "Someone is already waiting, a {guest_emotion} {guest_age} {guest_gender} in a {guest_shirt_color} shirt."
+  - "A guest is already in the living room, a {guest_age} {guest_gender} with {guest_hair} and {guest_accessories}."
+
+# --- OBJETOS ---
+object_description:
+  - "There is a {size} {color} {object} in {location}."

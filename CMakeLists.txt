@@ -3,25 +3,15 @@ project(knowledge_bank)
 
 find_package(ament_cmake REQUIRED)
 
-# Instalar todas las carpetas de acciones
+# Instalar las carpetas reales que contienen tus archivos YAML
 install(
   DIRECTORY
-    align
-    approach
-    check
-    drop
-    find
-    fold
-    follow
-    goto
-    listen
-    point
+    keys
+    phrases
     save
     say
-    take
-    wait
+    volatile
   DESTINATION share/${PROJECT_NAME}
 )
 
 ament_package()
-

@@ -402,16 +402,17 @@ introduce_guest_2:
   - "{name_1}, please meet {name_2}. {name_2} likes {drink_2}."
 
 introduce_waitress:
-  - "Hello, I am {robot_name}, your waiter."
-  - "Hello, my name is {robot_name}. I will take your order."
-  - "Hi, I am {robot_name}. I will assist you with your order."
+  - "Hello, my name is {robot_name}. What can I get for you?"
+  - "Hi, I am {robot_name}. Can I take your order, please?"
   - "Hello, I am {robot_name}. I am here to take your order."
   - "Hi, my name is {robot_name}. I will help you with your order."
-  - "Hello, I am {robot_name}, your service robot."
   - "Hi, I am {robot_name}. What would you like to order?"
   - "Hello, my name is {robot_name}. May I take your order?"
-  - "Hi, I am {robot_name}. I will be your waiter today."
   - "Hello, I am {robot_name}. Please tell me your order."
+  - "Hi, I am {robot_name}. Please tell me what you would like to order."
+  - "Hello, I am {robot_name}. May I help you with your order?"
+  - "Hello, I am {robot_name}. Please let me know your order."
+  - "Hi, my name is {robot_name}. What can I bring you?"
 
 memorize_face:
   - "Please look at me so I can remember your face."

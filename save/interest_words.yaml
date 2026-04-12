@@ -1,4 +1,46 @@
 categories:
+  order_1:
+    - water
+    - coffee
+    - tea
+    - milk
+    - orange juice
+    - apple juice
+    - cola
+    - coke
+    - pepsi
+    - lemonade
+    - sparkling water
+    - hot chocolate
+    - beer
+    - wine
+    - energy drink
+    - smoothie
+    - milkshake
+    - iced tea
+    - latte
+    - cappuccino
+  order_2:
+    - water
+    - coffee
+    - tea
+    - milk
+    - orange juice
+    - apple juice
+    - cola
+    - coke
+    - pepsi
+    - lemonade
+    - sparkling water
+    - hot chocolate
+    - beer
+    - wine
+    - energy drink
+    - smoothie
+    - milkshake
+    - iced tea
+    - latte
+    - cappuccino
   names:
     - james
     - john

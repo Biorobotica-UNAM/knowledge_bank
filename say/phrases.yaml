@@ -82,6 +82,54 @@ announce_nav_end_costumer_2:
   - "Costumer two place reached successfully."
   - "I am standing at the costumer two place."
 
+announce_nav_end_laundry_machine:
+  - "I have arrived at the laundry machine."
+  - "Now entering the laundry machine."
+  - "I am in the laundry machine."
+  - "I have reached the laundry machine."
+  - "Arrived at the laundry machine."
+  - "I am now in the laundry machine area."
+  - "I made it to the laundry machine."
+  - "This is the laundry machine."
+  - "I am currently in the laundry machine."
+  - "laundry machine reached."
+
+announce_nav_end_laundry_basket:
+  - "I have arrived at the laundry basket."
+  - "Now entering the laundry basket."
+  - "I am in the laundry basket."
+  - "I have reached the laundry basket."
+  - "Arrived at the laundry basket."
+  - "I am now in the laundry basket area."
+  - "I made it to the laundry basket."
+  - "This is the laundry basket."
+  - "I am currently in the laundry basket."
+  - "laundry basket reached."
+
+announce_nav_end_laundry_table:
+  - "I have arrived at the laundry table."
+  - "Now entering the laundry table."
+  - "I am in the laundry table."
+  - "I have reached the laundry table."
+  - "Arrived at the laundry table."
+  - "I am now in the laundry table area."
+  - "I made it to the laundry table."
+  - "This is the laundry table."
+  - "I am currently in the laundry table."
+  - "laundry table reached."
+
+announce_nav_end_laundry_table_floor:
+  - "I have arrived at the laundry table floor."
+  - "Now entering the laundry table floor."
+  - "I am in the laundry table floor."
+  - "I have reached the laundry table floor."
+  - "Arrived at the laundry table floor."
+  - "I am now in the laundry table floor area."
+  - "I made it to the laundry table floor."
+  - "This is the laundry table floor."
+  - "I am currently in the laundry table floor."
+  - "laundry table floor reached."
+
 announce_nav_entrance:
   - "I am heading to the entrance now."
   - "Navigating to the entrance."
@@ -166,6 +214,54 @@ announce_nav_costumer_2:
   - "I will navigate to the costumer two place."
   - "Heading to the costumer two now."
 
+announce_nav_laundry_machine:
+  - "I am heading to the laundry machine."
+  - "Navigating to the laundry machine."
+  - "Proceeding to the laundry machine."
+  - "I will move toward the laundry machine."
+  - "Going to the laundry machine."
+  - "Starting navigation to the laundry machine."
+  - "I am on my way to the laundry machine."
+  - "Moving toward the laundry machine."
+  - "I will navigate to the laundry machine."
+  - "Heading over to the laundry machine."
+
+announce_nav_laundry_basket:
+  - "I am heading to the laundry basket."
+  - "Navigating to the laundry basket."
+  - "Proceeding to the laundry basket."
+  - "I will move toward the laundry basket."
+  - "Going to the laundry basket."
+  - "Starting navigation to the laundry basket."
+  - "I am on my way to the laundry basket."
+  - "Moving toward the laundry basket."
+  - "I will navigate to the laundry basket."
+  - "Heading over to the laundry basket."
+
+announce_nav_laundry_table:
+  - "I am heading to the laundry table."
+  - "Navigating to the laundry table."
+  - "Proceeding to the laundry table."
+  - "I will move toward the laundry table."
+  - "Going to the laundry table."
+  - "Starting navigation to the laundry table."
+  - "I am on my way to the laundry table."
+  - "Moving toward the laundry table."
+  - "I will navigate to the laundry table."
+  - "Heading over to the laundry table."
+
+announce_nav_laundry_table_floor:
+  - "I am heading to the laundry table floor."
+  - "Navigating to the laundry table floor."
+  - "Proceeding to the laundry table floor."
+  - "I will move toward the laundry table floor."
+  - "Going to the laundry table floor."
+  - "Starting navigation to the laundry table floor."
+  - "I am on my way to the laundry table floor."
+  - "Moving toward the laundry table floor."
+  - "I will navigate to the laundry table floor."
+  - "Heading over to the laundry table floor."
+
 ask_bag:
   - "Excuse me, could you please hand me the bag?"
   - "May I take the bag, please?"
@@ -218,7 +314,7 @@ ask_open:
   - "May I ask you to please open the door?"
   - "Please open the door for me, thank you."
 
-confirm_order:
+confirm_order_1:
   - "You ordered {order_1}. Is that correct?"
   - "I heard the following order: {order_1}."
   - "Your order is {order_1}, correct?"
@@ -229,6 +325,18 @@ confirm_order:
   - "Please confirm, your order is {order_1}."
   - "If I understood correctly, you ordered {order_1}."
   - "Let me confirm your order: {order_1}."
+
+confirm_order_2:
+  - "You ordered {order_2}. Is that correct?"
+  - "I heard the following order: {order_2}."
+  - "Your order is {order_2}, correct?"
+  - "Let me repeat your order: {order_2}."
+  - "Just to confirm, you ordered {order_2}."
+  - "I understood that your order is {order_2}."
+  - "You asked for {order_2}."
+  - "Please confirm, your order is {order_2}."
+  - "If I understood correctly, you ordered {order_2}."
+  - "Let me confirm your order: {order_2}."
 
 drink_1:
   - "Ooh, {drink_1}, great choice."
@@ -472,17 +580,29 @@ receive_present:
   - "This was brought by your guest."
   - "Your guest would like you to have this."
 
-send_order:
-  - "The customer ordered {order_1}."
-  - "My customer would like {order_1}."
-  - "The order from the customer is {order_1}."
-  - "The customer asked for {order_1}."
-  - "I have an order for {order_1}."
-  - "The requested order is {order_1}."
-  - "My customer's order is {order_1}."
-  - "The customer requested {order_1}."
-  - "I am delivering the order information: {order_1}."
-  - "Here is the order from the customer: {order_1}."
+send_order_1:
+  - "Customer one ordered {order_1}."
+  - "My customer one would like {order_1}."
+  - "The order from customer one is {order_1}."
+  - "Customer one asked for {order_1}."
+  - "I have an order for customer one: {order_1}."
+  - "The requested order for customer one is {order_1}."
+  - "My customer one's order is {order_1}."
+  - "Customer one requested {order_1}."
+  - "I am delivering the order information for customer one: {order_1}."
+  - "Here is the order from customer one: {order_1}."
+
+send_order_2:
+  - "Customer two ordered {order_2}."
+  - "My customer two would like {order_2}."
+  - "The order from customer two is {order_2}."
+  - "Customer two asked for {order_2}."
+  - "I have an order for customer two: {order_2}."
+  - "The requested order for customer two is {order_2}."
+  - "My customer two's order is {order_2}."
+  - "Customer two requested {order_2}."
+  - "I am delivering the order information for customer two: {order_2}."
+  - "Here is the order from customer two: {order_2}."
 
 start_hri:
   - "Hello, I am {robot_name}, your receptionist. I will welcome our guests and guide them."

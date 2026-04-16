@@ -93,8 +93,8 @@ categories:
     - latte
     - cappuccino
 labels:
-  robot_name: Justina
-  name_host: josh
+  robot_name: Takeshi
+  name_host: host
   name_1: ruben
   name_2: morgan
   face_1: unknown

@@ -92,7 +92,7 @@ announce_nav_end_laundry_machine:
   - "I made it to the laundry machine."
   - "This is the laundry machine."
   - "I am currently in the laundry machine."
-  - "laundry machine reached."
+  - "Laundry machine reached."
 
 announce_nav_end_laundry_basket:
   - "I have arrived at the laundry basket."
@@ -104,7 +104,7 @@ announce_nav_end_laundry_basket:
   - "I made it to the laundry basket."
   - "This is the laundry basket."
   - "I am currently in the laundry basket."
-  - "laundry basket reached."
+  - "Laundry basket reached."
 
 announce_nav_end_laundry_table:
   - "I have arrived at the laundry table."
@@ -116,7 +116,7 @@ announce_nav_end_laundry_table:
   - "I made it to the laundry table."
   - "This is the laundry table."
   - "I am currently in the laundry table."
-  - "laundry table reached."
+  - "Laundry table reached."
 
 announce_nav_end_laundry_table_floor:
   - "I have arrived at the laundry table floor."
@@ -128,7 +128,7 @@ announce_nav_end_laundry_table_floor:
   - "I made it to the laundry table floor."
   - "This is the laundry table floor."
   - "I am currently in the laundry table floor."
-  - "laundry table floor reached."
+  - "Laundry table floor reached."
 
 announce_nav_entrance:
   - "I am heading to the entrance now."

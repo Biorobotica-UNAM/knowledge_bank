@@ -1,0 +1,70 @@
+# --- ROBOT ---
+room:
+  - living_room
+
+holding:
+  - nothing
+
+# --- OBJETOS ---
+apple_location:
+  - kitchen
+  - corridor
+
+milk_location:
+  - pantry
+
+cup_location:
+  - kitchen_table
+
+tray_location:
+  - living_room
+
+snack_location:
+  - pantry
+
+spoon_location:
+  - kitchen_table
+
+dish_location:
+  - kitchen_table
+
+fork_location:
+  - kitchen_table
+
+knife_location:
+  - kitchen_table
+
+bowl_location:
+  - kitchen_table
+
+cereal_location:
+  - cabinet
+
+plate_location:
+  - kitchen_table
+
+napkin_location:
+  - kitchen_table
+
+# --- LUGARES ---
+known_locations:
+  - kitchen
+  - living_room
+  - bedroom
+  - bathroom
+  - entrance
+  - pantry
+  - office
+  - corridor
+  - kitchen_table
+  - bookshelf
+  - coatrack
+  - shelf
+  - dishwasher
+  - breakfast_bar
+  - cabinet
+  - laundry_machine
+  - laundry_basket
+  - laundry_table
+  - trash_bin
+  - inspection_point

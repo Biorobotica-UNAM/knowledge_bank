@@ -1,5 +1,59 @@
 categories:
+  order_1:
+    - water
+    - coffee
+    - tea
+    - milk
+    - orange juice
+    - apple juice
+    - red wine
+    - juice pack
+    - tropical juice
+    - cola
+    - coke
+    - pepsi
+    - lemonade
+    - sparkling water
+    - hot chocolate
+    - beer
+    - wine
+    - energy drink
+    - smoothie
+    - milkshake
+    - iced tea
+    - latte
+    - cappuccino
+  order_2:
+    - water
+    - coffee
+    - tea
+    - milk
+    - orange juice
+    - apple juice
+    - cola
+    - coke
+    - pepsi
+    - lemonade
+    - sparkling water
+    - hot chocolate
+    - beer
+    - wine
+    - energy drink
+    - smoothie
+    - milkshake
+    - iced tea
+    - latte
+    - cappuccino
   names:
+    - names
+    - adel
+    - Angel
+    - axel
+    - charlie
+    - jane
+    - jules
+    - robin
+    - simon
     - james
     - john
     - michael
@@ -51,23 +105,33 @@ categories:
     - latte
     - cappuccino
 labels:
-  name_host: josh
-  name_1: john
+  robot_name: Takeshi
+  name_host: host
+  name_1: ruben
   name_2: morgan
   face_1: unknown
   customer_1: robert
   customer_2: david
   drink_1: water
   drink_2: cola
-  order_1: coke
+  order_1: coffee and milk
   order_2: juice
   object_1: apple
-  cutlery: none
   kitchen_bar: location_1
   current_location: entrance
-  guest_age_1: young
-  guest_gender_1: man
-  guest_shirt_color_1: blue
-  guest_age_2: adult
-  guest_gender_2: woman
-  guest_shirt_color_2: red
+  guest_age_1: unknown
+  guest_gender_1: unknown
+  guest_shirt_color_1: unknown
+  guest_hair_1: unknown
+  guest_emotion_1: unknown
+  guest_accessories_1: unknown
+  guest_age_2: unknown
+  guest_gender_2: unknown
+  guest_shirt_color_2: unknown
+  guest_hair_2: unknown
+  guest_emotion_2: unknown
+  guest_accessories_2: unknown
+  last_object_found: unknown
+  location_object: unknown
+  info_1: unknown
+  info_2: unknown

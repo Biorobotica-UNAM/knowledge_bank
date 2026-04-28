@@ -1,0 +1,15 @@
+# --- IR ---
+going_to:
+  - "I am heading to the {location} now."
+  - "Navigating to the {location}."
+  - "Proceeding to the {location}."
+  - "On my way to the {location}."
+  - "I will move toward the {location}."
+
+# --- LLEGAR ---
+arrived_at:
+  - "I have arrived at the {location}."
+  - "I am now at the {location}."
+  - "Navigation to the {location} is complete."
+  - "{location} reached."
+  - "I am ready at the {location}."

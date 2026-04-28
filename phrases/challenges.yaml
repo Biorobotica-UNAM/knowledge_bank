@@ -1,0 +1,53 @@
+# --- Human Robot Interaction ---
+start_hri:
+  - "Hello, I am {robot_name}, your receptionist. I will welcome our guests and guide them."
+  - "Hi, I am {robot_name}. I will greet the guests and show them where to sit."
+  - "Greetings, I am {robot_name}. I will receive the guests and offer them a seat."
+
+finish_hri:
+  - "It was a pleasure to be your receptionist. I am {robot_name} and I hope you had a great time."
+  - "I'm glad I could assist you today. This is {robot_name} signing off."
+  - "Assisting you has been a delight. Have a great time!"
+
+# --- Pick & Place ---
+start_pnp:
+  - "Hello, I am {robot_name}. I will clean the table and organize the kitchen."
+  - "Hi, I am {robot_name}. I will start the table cleaning task."
+  - "Greetings, I am {robot_name}. I will place the objects in their proper locations."
+
+finish_pnp:
+  - "I have finished cleaning the table and serving the breakfast."
+  - "Everything is clean and the breakfast is ready."
+  - "The table is clean and the task is complete."
+
+# --- Doing Laundry ---
+start_laundry:
+  - "Hello, I am {robot_name}. I will take care of the laundry."
+  - "Hi, I am {robot_name}. I will remove and fold the clothes."
+  - "Greetings, I am {robot_name}. I will manage the laundry task."
+
+finish_laundry:
+  - "The laundry task is now complete."
+  - "I have finished taking the clothes out of the washing machine and folding them."
+  - "The clothes are folded and the task is finished."
+
+# --- Restaurant ---
+start_restaurant:
+  - "Hello, I am {robot_name}. I will serve the customers today."
+  - "Hi, I am {robot_name}. I will take and deliver the orders."
+  - "Greetings, I am {robot_name}. I will attend the customers."
+
+finish_restaurant:
+  - "I have finished the waiter task. The orders have been delivered."
+  - "All orders are complete. The customers have been served."
+  - "The food has been delivered to the customers."
+
+# --- Robot Inspection ---
+start_robot_inspection:
+  - "I am {robot_name}. I will now begin the robot inspection test."
+  - "Starting the robot inspection test."
+  - "Beginning the robot inspection procedure now."
+
+finish_robot_inspection:
+  - "The robot inspection test is now complete."
+  - "I have finished the inspection procedure."

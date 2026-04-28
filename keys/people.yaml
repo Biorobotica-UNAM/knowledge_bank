@@ -1,0 +1,76 @@
+# --- NOMBRES ---
+names:
+  - james
+  - john
+  - michael
+  - david
+  - robert
+  - william
+  - daniel
+  - matthew
+  - morgan
+  - sarah
+  - emily
+  - anna
+  - laura
+  - sophia
+
+# --- ATRIBUTOS ---
+genders:
+  - male
+  - female
+  - unknown
+
+age_groups:
+  - child
+  - young
+  - adult
+  - elderly
+  - unknown
+
+emotions:
+  - happy
+  - sad
+  - neutral
+  - surprised
+  - angry
+  - unknown
+
+hair_colors:
+  - black
+  - brown
+  - blonde
+  - red
+  - gray
+  - white
+  - unknown
+
+hair_styles:
+  - short
+  - long
+  - curly
+  - straight
+  - bald
+  - unknown
+
+shirt_colors:
+  - red
+  - blue
+  - green
+  - yellow
+  - white
+  - black
+  - gray
+  - orange
+  - pink
+  - purple
+  - unknown
+
+accessories:
+  - glasses
+  - hat
+  - cap
+  - scarf
+  - bag
+  - none
+  - unknown

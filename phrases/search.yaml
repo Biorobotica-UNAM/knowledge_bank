@@ -1,0 +1,15 @@
+# --- PEOPLE ---
+find_guest:
+  - "Let me see if our guest is here."
+  - "I will check the door for our guest."
+  - "I am going to look for the invited guest."
+
+find_person:
+  - "Let me see where you are, {name}."
+  - "{name}, let me look around for you."
+  - "Alright {name}, let me spot you first."
+  - "I am looking for you now, {name}."
+
+# --- OBJECT ---
+find_object:
+  - "Let me see if there is {object}."

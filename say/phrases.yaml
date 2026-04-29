@@ -314,6 +314,18 @@ ask_open:
   - "May I ask you to please open the door?"
   - "Please open the door for me, thank you."
 
+ask_open_door:
+  - "Excuse me, could you please open the dishwasher for me?"
+  - "Would you mind opening the dishwasher, please?"
+  - "Could you please help me by opening the dishwasher?"
+  - "Excuse me, may I ask you to open the dishwasher?"
+  - "Please open the dishwasher when you have a moment."
+  - "Would you be so kind as to open the dishwasher for me?"
+  - "Could you kindly open the dishwasher, please?"
+  - "Excuse me, please help me by opening the dishwasher."
+  - "May I ask you to please open the dishwasher?"
+  - "Please open the dishwasher for me, thank you."
+
 confirm_order_1:
   - "You ordered {order_1}. Is that correct?"
   - "I heard the following order: {order_1}."

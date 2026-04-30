@@ -350,6 +350,14 @@ confirm_order_2:
   - "If I understood correctly, you ordered {order_2}."
   - "Let me confirm your order: {order_2}."
 
+repeat_name:
+  - "Sorry, I couldn´t hear you, repeat your name"
+  - "Speak louder, I couldn´t hear you, repeat your name"
+
+repeat_drink:
+  - "Sorry, I couldn´t hear you, repeat your drink"
+  - "Speak louder, I couldn´t hear you, repeat your drink"
+
 drink_1:
   - "Ooh, {drink_1}, great choice."
   - "Ah, {drink_1}, very nice."

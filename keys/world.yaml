@@ -10,8 +10,23 @@ apple_location:
   - kitchen
   - corridor
 
+banana_location:
+  - kitchen
+
+orange_location:
+  - kitchen
+
+pear_location:
+  - bedroom
+
+plum_location:
+  - refrigerator
+
 milk_location:
   - pantry
+
+juice_pack_location:
+  - refrigerator
 
 cup_location:
   - kitchen_table
@@ -46,6 +61,17 @@ plate_location:
 napkin_location:
   - kitchen_table
 
+toy_location:
+  - living_room
+  - bedroom
+
+dice_location:
+  - tv_stand
+
+cleaning_supply_location:
+  - cabinet
+  - desk
+
 # --- LUGARES ---
 known_locations:
   - kitchen
@@ -56,15 +82,28 @@ known_locations:
   - pantry
   - office
   - corridor
+
   - kitchen_table
+  - refrigerator
+  - sink
+  - bed
+  - sofa
   - bookshelf
-  - coatrack
   - shelf
+  - tv_stand
+  - side_tables
+  - storage_rack
+  - desk
+  - coatrack
+  - armchair
+  - cabinet
   - dishwasher
   - breakfast_bar
-  - cabinet
   - laundry_machine
   - laundry_basket
   - laundry_table
   - trash_bin
   - inspection_point
+  - lamp
+  - desk_lamp
+  - potted_plant

@@ -16,6 +16,25 @@ drinks:
   - smoothie
   - latte
   - cappuccino
+  - juice pack
+
+# --- FRUTAS ---
+fruits:
+  - apple
+  - banana
+  - orange
+  - pear
+  - plum
+
+# --- SNACKS ---
+snacks:
+  - chocolate jello
+  - snack
+
+# --- TOYS ---
+toys:
+  - toy
+  - dice
 
 # --- CATEGORIAS ---
 cutlery:
@@ -30,6 +49,8 @@ tableware:
   - cup
   - mug
   - glass
+  - dish
+  - tray
 
 trash:
   - napkin
@@ -39,17 +60,15 @@ trash:
   - tissue
 
 food:
-  - apple
-  - banana
   - cereal
   - bread
-  - milk
-  - juice
+  - tomato soup
 
 cleaning:
   - sponge
   - cloth
   - brush
+  - cleaning supply
 
 # --- GUSTOS ---
 interests:

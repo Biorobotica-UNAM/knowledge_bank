@@ -41,6 +41,67 @@ inspection_point_name:
 trash_bin_name:
   - the trash bin
 
+# --- NUEVOS ---
+bedroom_name:
+  - the bedroom
+
+bathroom_name:
+  - the bathroom
+
+office_name:
+  - the office
+
+pantry_name:
+  - the pantry
+
+corridor_name:
+  - the corridor
+
+refrigerator_name:
+  - the refrigerator
+
+sink_name:
+  - the sink
+
+bed_name:
+  - the bed
+
+sofa_name:
+  - the sofa
+
+bookshelf_name:
+  - the bookshelf
+
+shelf_name:
+  - the shelf
+
+tv_stand_name:
+  - the tv stand
+
+side_tables_name:
+  - the side tables
+
+storage_rack_name:
+  - the storage rack
+
+desk_name:
+  - the desk
+
+coatrack_name:
+  - the coatrack
+
+armchair_name:
+  - the armchair
+
+lamp_name:
+  - the lamp
+
+desk_lamp_name:
+  - the desk lamp
+
+potted_plant_name:
+  - the potted plant
+
 # --- PLACES ---
 kitchen:
   - kitchen_table
@@ -48,6 +109,8 @@ kitchen:
   - dishwasher
   - breakfast_bar
   - cabinet
+  - refrigerator
+  - sink
 
 laundry:
   - laundry_machine
@@ -57,8 +120,30 @@ laundry:
 
 living:
   - living_room
+  - sofa
+  - tv_stand
+  - bookshelf
+  - shelf
+  - side_tables
   - entrance
   - exit
+
+bedroom:
+  - bed
+  - bedside_table
+
+bathroom:
+  - sink
+
+office:
+  - desk
+  - bookshelf
+
+storage:
+  - storage_rack
+
+pantry:
+  - pantry
 
 inspection:
   - inspection_point

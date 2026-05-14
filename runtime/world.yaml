@@ -1,11 +1,17 @@
-# --- ROBOT ---
-room:
+# ROBOT
+robot_name:
+  - Justina
+
+robot_location:
   - living_room
 
-holding:
+robot_left_hand:
   - nothing
 
-# --- OBJETOS ---
+robot_right_hand:
+  - nothing
+
+# OBJECTS
 apple_location:
   - kitchen
   - corridor
@@ -72,7 +78,7 @@ cleaning_supply_location:
   - cabinet
   - desk
 
-# --- LUGARES ---
+# LOCATIONS
 known_locations:
   - kitchen
   - living_room
@@ -82,7 +88,6 @@ known_locations:
   - pantry
   - office
   - corridor
-
   - kitchen_table
   - refrigerator
   - sink

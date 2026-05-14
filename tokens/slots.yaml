@@ -1,0 +1,23 @@
+robot_name:
+  - Justina
+
+name_1:
+  - human
+
+name_2:
+  - human
+
+drink_1:
+  - water
+
+drink_2:
+  - water
+
+order_1_item_1:
+  - water
+
+order_2_item_2:
+  - water
+
+order_3_item_3:
+  - water

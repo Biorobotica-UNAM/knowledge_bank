@@ -1,0 +1,41 @@
+# START
+start_laundry:
+  - "Hello, I am {robot_name}. I will take care of the laundry."
+  - "Hi, I am {robot_name}. I will remove and fold the clothes."
+  - "Greetings, I am {robot_name}. I will manage the laundry task."
+
+# REQUESTS
+request_open_washing_machine_door:
+  - "Please open the door so I can proceed."
+  - "I am waiting for the door to be opened."
+  - "Kindly open the door so I may pass."
+
+# NAVIGATION
+going_to:
+  - "I am heading to the {location} now."
+  - "Navigating to the {location}."
+  - "Proceeding to the {location}."
+  - "On my way to the {location}."
+  - "I will move toward the {location}."
+
+arrived_at:
+  - "I have arrived at the {location}."
+  - "I am now at the {location}."
+  - "Navigation to the {location} is complete."
+  - "{location} reached."
+  - "I am ready at the {location}."
+
+# INTERACTION
+identify_object:
+  - "I found a {object}."
+  - "This is a {object}.
+  - "I identified a {object}."
+
+find_object:
+  - "Let me see if there is {object}."
+
+# FINISH
+finish_laundry:
+  - "The laundry task is now complete."
+  - "I have finished taking the clothes out of the washing machine and folding them."
+  - "The clothes are folded and the task is finished."

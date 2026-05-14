@@ -1,0 +1,48 @@
+# PLACES
+kitchen:
+  - kitchen_table
+  - kitchen_bar
+  - dishwasher
+  - breakfast_bar
+  - cabinet
+  - refrigerator
+  - sink
+
+laundry:
+  - laundry_machine
+  - laundry_basket
+  - laundry_table
+  - laundry_table_floor
+
+living:
+  - living_room
+  - sofa
+  - tv_stand
+  - bookshelf
+  - shelf
+  - side_tables
+  - entrance
+  - exit
+
+bedroom:
+  - bed
+  - bedside_table
+
+bathroom:
+  - sink
+
+office:
+  - desk
+  - bookshelf
+
+storage:
+  - storage_rack
+
+pantry:
+  - pantry
+
+inspection:
+  - inspection_point
+
+trash:
+  - trash_bin

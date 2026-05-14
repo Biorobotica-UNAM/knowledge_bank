@@ -1,0 +1,41 @@
+# START
+start_pnp:
+  - "Hello, I am {robot_name}. I will clean the table and organize the kitchen."
+  - "Hi, I am {robot_name}. I will start the table cleaning task."
+  - "Greetings, I am {robot_name}. I will place the objects in their proper locations."
+
+# REQUESTS
+request_open_dishwasher_door:
+  - "Please open the door so I can proceed."
+  - "I am waiting for the door to be opened."
+  - "Kindly open the door so I may pass."
+
+# NAVIGATION
+going_to:
+  - "I am heading to the {location} now."
+  - "Navigating to the {location}."
+  - "Proceeding to the {location}."
+  - "On my way to the {location}."
+  - "I will move toward the {location}."
+
+arrived_at:
+  - "I have arrived at the {location}."
+  - "I am now at the {location}."
+  - "Navigation to the {location} is complete."
+  - "{location} reached."
+  - "I am ready at the {location}."
+
+# INTERACTION
+identify_category:
+  - "I found a {object}, which belongs to the {category} category."
+  - "This is a {object}. Category {category}."
+  - "I identified a {object}. It is a {category}."
+
+find_object:
+  - "Let me see if there is {object}."
+
+# FINISH
+finish_pnp:
+  - "I have finished cleaning the table and serving the breakfast."
+  - "Everything is clean and the breakfast is ready."
+  - "The table is clean and the task is complete."

@@ -1,4 +1,4 @@
-# --- BEBIDAS ---
+# CATEGORIES
 drinks:
   - water
   - coffee
@@ -18,7 +18,6 @@ drinks:
   - cappuccino
   - juice pack
 
-# --- FRUTAS ---
 fruits:
   - apple
   - banana
@@ -26,17 +25,14 @@ fruits:
   - pear
   - plum
 
-# --- SNACKS ---
 snacks:
   - chocolate jello
   - snack
 
-# --- TOYS ---
 toys:
   - toy
   - dice
 
-# --- CATEGORIAS ---
 cutlery:
   - fork
   - knife
@@ -69,12 +65,3 @@ cleaning:
   - cloth
   - brush
   - cleaning supply
-
-# --- GUSTOS ---
-interests:
-  - sports
-  - music
-  - movies
-  - reading
-  - programming
-  - cooking

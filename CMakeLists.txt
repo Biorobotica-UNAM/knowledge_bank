@@ -5,9 +5,10 @@ find_package(ament_cmake REQUIRED)
 
 install(
   DIRECTORY
-    keys
+    domains
     phrases
-    volatile
+    runtime
+    tokens
   DESTINATION share/${PROJECT_NAME}
 )
 

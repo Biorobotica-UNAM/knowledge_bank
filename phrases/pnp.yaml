@@ -1,7 +1,7 @@
 # START
 start_pnp:
   - "Hello, I am {robot_name}. I will clean the table and organize the kitchen."
-  - "Hi, I am {robot_name}. I will start the table cleaning task."
+  - "Hi, I am {robot_name}. I will start the kitchen cleaning task."
   - "Greetings, I am {robot_name}. I will place the objects in their proper locations."
 
 # REQUESTS
@@ -11,12 +11,12 @@ request_open_dishwasher_door:
   - "Kindly open the door so I may pass."
 
 # NAVIGATION
-going_to:
-  - "I am heading to the {location} now."
-  - "Navigating to the {location}."
-  - "Proceeding to the {location}."
-  - "On my way to the {location}."
-  - "I will move toward the {location}."
+going_to_kitchen_table:
+  - "Heading to the kitchen table."
+  - "Navigating to the kitchen table."
+  - "On my way to the kitchen table."
+
+
 
 arrived_at:
   - "I have arrived at the {location}."

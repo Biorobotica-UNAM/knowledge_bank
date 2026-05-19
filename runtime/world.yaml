@@ -1,82 +1,113 @@
-# ROBOT
-robot_name:
-  - Justina
+# --- ROBOT ---
+robot:
+  name: Justina
+  room: inspection_point
+  left_hand: nothing
+  right_hand: nothing
 
-robot_location:
-  - living_room
+# --- OBJECTS ---
+objects:
 
-robot_left_hand:
-  - nothing
+  apple:
+    locations:
+      - kitchen
 
-robot_right_hand:
-  - nothing
+  banana:
+    locations:
+      - kitchen
 
-# OBJECTS
-apple_location:
-  - kitchen
-  - corridor
+  orange:
+    locations:
+      - kitchen
 
-banana_location:
-  - kitchen
+  pear:
+    locations:
+      - bedroom
 
-orange_location:
-  - kitchen
+  plum:
+    locations:
+      - refrigerator
 
-pear_location:
-  - bedroom
+  milk:
+    locations:
+      - pantry
 
-plum_location:
-  - refrigerator
+  juice_pack:
+    locations:
+      - refrigerator
 
-milk_location:
-  - pantry
+  cup:
+    locations:
+      - kitchen_table
 
-juice_pack_location:
-  - refrigerator
+  tray:
+    locations:
+      - living_room
 
-cup_location:
-  - kitchen_table
+  snack:
+    locations:
+      - pantry
 
-tray_location:
-  - living_room
+  spoon:
+    locations:
+      - kitchen_table
 
-snack_location:
-  - pantry
+  dish:
+    locations:
+      - kitchen_table
 
-spoon_location:
-  - kitchen_table
+  fork:
+    locations:
+      - kitchen_table
 
-dish_location:
-  - kitchen_table
+  knife:
+    locations:
+      - kitchen_table
 
-fork_location:
-  - kitchen_table
+  bowl:
+    locations:
+      - kitchen_table
 
-knife_location:
-  - kitchen_table
+  cereal:
+    locations:
+      - cabinet
 
-bowl_location:
-  - kitchen_table
+  plate:
+    locations:
+      - kitchen_table
 
-cereal_location:
-  - cabinet
+  napkin:
+    locations:
+      - kitchen_table
 
-plate_location:
-  - kitchen_table
+  toy:
+    locations:
+      - living_room
+      - bedroom
 
-napkin_location:
-  - kitchen_table
+  dice:
+    locations:
+      - tv_stand
 
-toy_location:
-  - living_room
-  - bedroom
+  cleaning_supply:
+    locations:
+      - cabinet
+      - desk
 
-dice_location:
-  - tv_stand
+# --- PEOPLE ---
+people:
 
-cleaning_supply_location:
-  - cabinet
-  - desk
+  - name: james
+    gender: male
+    age_group: adult
+    emotion: happy
+    hair_color: unknown
+    hair_style: unknown
+    shirt_color: unknown
+    room: living_room
+    accessories: 
+      - glasses
+      - hat 
 
 # LOCATIONS
 known_locations:

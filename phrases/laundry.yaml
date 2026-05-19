@@ -28,7 +28,7 @@ arrived_at:
 # INTERACTION
 identify_object:
   - "I found a {object}."
-  - "This is a {object}.
+  - "This is a {object}. "
   - "I identified a {object}."
 
 find_object:

@@ -8,88 +8,109 @@ robot:
 # --- OBJECTS ---
 objects:
 
-  apple:
+  - number: 1
+    name: apple
+    locations:
+      - kitchen_table
+
+  - number: 2
+    name: banana
+    locations:
+      - kitchen_table
+
+  - number: 3
+    name: orange
     locations:
       - kitchen
 
-  banana:
-    locations:
-      - kitchen
-
-  orange:
-    locations:
-      - kitchen
-
-  pear:
+  - number: 4
+    name: pear
     locations:
       - bedroom
 
-  plum:
+  - number: 5
+    name: plum
     locations:
       - refrigerator
 
-  milk:
+  - number: 6
+    name: milk
     locations:
       - pantry
 
-  juice_pack:
+  - number: 7
+    name: juice_pack
     locations:
       - refrigerator
 
-  cup:
+  - number: 8
+    name: cup
     locations:
       - kitchen_table
 
-  tray:
+  - number: 9
+    name: tray
     locations:
       - living_room
 
-  snack:
+  - number: 10
+    name: snack
     locations:
       - pantry
 
-  spoon:
+  - number: 11
+    name: spoon
     locations:
       - kitchen_table
 
-  dish:
+  - number: 12
+    name: dish
     locations:
       - kitchen_table
 
-  fork:
+  - number: 13
+    name: fork
     locations:
       - kitchen_table
 
-  knife:
+  - number: 14
+    name: knife
     locations:
       - kitchen_table
 
-  bowl:
+  - number: 15
+    name: bowl
     locations:
       - kitchen_table
 
-  cereal:
+  - number: 16
+    name: cereal
     locations:
       - cabinet
 
-  plate:
+  - number: 17
+    name: plate
     locations:
       - kitchen_table
 
-  napkin:
+  - number: 18
+    name: napkin
     locations:
       - kitchen_table
 
-  toy:
+  - number: 19
+    name: toy
     locations:
       - living_room
       - bedroom
 
-  dice:
+  - number: 20
+    name: dice
     locations:
       - tv_stand
 
-  cleaning_supply:
+  - number: 21
+    name: cleaning_supply
     locations:
       - cabinet
       - desk
@@ -97,7 +118,8 @@ objects:
 # --- PEOPLE ---
 people:
 
-  - name: james
+  - number: 1
+    name: james
     gender: male
     age_group: adult
     emotion: happy

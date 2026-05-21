@@ -1,8 +1,8 @@
 # START
 start_hri:
-  - "Hello, I am {robot_name}. I will welcome the guests."
-  - "Hi, I am {robot_name}. I will guide the guests."
-  - "Greetings, I am {robot_name}. I will receive the guests."
+  - "Hello, I am {robot.name}. I will welcome the guests."
+  - "Hi, I am {robot.name}. I will guide the guests."
+  - "Greetings, I am {robot.name}. I will receive the guests."
 
 # NAVIGATION
 going_to_entrance:
@@ -69,15 +69,25 @@ ask_drink:
   - "What drink do you like the most?"
 
 # CONFIRMATION
-confirm_name:
-  - "You are {name}, correct?"
-  - "Did you say your name is {name}?"
-  - "Is your name {name}?"
+confirm_name_1:
+  - "You are {people.1.name}, correct?"
+  - "Did you say your name is {people.1.name}?"
+  - "Is your name {people.1.name}?"
 
-confirm_drink:
-  - "You like {drink}, correct?"
-  - "Did you say you like {drink}?"
-  - "Is {drink} your favorite drink?"
+confirm_name_2:
+  - "You are {people.2.name}, correct?"
+  - "Did you say your name is {people.2.name}?"
+  - "Is your name {people.2.name}?"
+
+confirm_drink_1:
+  - "You like {people.1.drink}, correct?"
+  - "Did you say you like {people.1.drink}?"
+  - "Is {people.1.drink} your favorite drink?"
+
+confirm_drink_2:
+  - "You like {people.2.drink}, correct?"
+  - "Did you say you like {people.2.drink}?"
+  - "Is {people.2.drink} your favorite drink?"
 
 # SEARCH
 search_guest:
@@ -117,12 +127,22 @@ inform_present:
   - "Your guest asked me to give you this gift."
 
 # ACKNOWLEDGE
-acknowledge_name:
-  - "Nice to meet you, {name}."
-  - "Hello, {name}. Nice to meet you."
-  - "It is great to meet you, {name}."
+acknowledge_name_1:
+  - "Nice to meet you, {people.1.name}."
+  - "Hello, {people.1.name}. Nice to meet you."
+  - "It is great to meet you, {people.1.name}."
 
-acknowledge_drink:
+acknowledge_name_2:
+  - "Nice to meet you, {people.2.name}."
+  - "Hello, {people.2.name}. Nice to meet you."
+  - "It is great to meet you, {people.2.name}."
+
+acknowledge_drink_1:
+  - "{people.1.drink} is a great choice."
+  - "I will remember that you like {people.1.drink}."
+  - "Thank you. I noted that you like {people.1.drink}."
+
+acknowledge_drink_2:
   - "{drink} is a great choice."
   - "I will remember that you like {drink}."
   - "Thank you. I noted that you like {drink}."

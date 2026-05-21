@@ -8,7 +8,6 @@ install(
     domains
     phrases
     runtime
-    tokens
   DESTINATION share/${PROJECT_NAME}
 )
 

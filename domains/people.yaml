@@ -65,6 +65,12 @@ shirt_colors:
   - purple
   - unknown
 
+drink:
+  - milk
+  - juice
+  - coffe
+  - tea 
+
 accessories:
   - glasses
   - hat

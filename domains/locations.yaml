@@ -1,5 +1,6 @@
 # PLACES
 kitchen:
+  - kitchen 
   - kitchen_table
   - kitchen_bar
   - dishwasher
@@ -9,6 +10,7 @@ kitchen:
   - sink
 
 laundry:
+  - laundry
   - laundry_machine
   - laundry_basket
   - laundry_table
@@ -25,6 +27,7 @@ living:
   - exit
 
 bedroom:
+  - bedroom
   - bed
   - bedside_table
 

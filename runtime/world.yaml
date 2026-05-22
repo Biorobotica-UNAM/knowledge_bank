@@ -118,14 +118,14 @@ objects:
 # --- PEOPLE ---
 people:
   - number: 1
-    name: human
-    drink: beverage
+    name: john
     gender: male
     age_group: adult
     emotion: happy
     hair_color: unknown
     hair_style: unknown
     shirt_color: unknown
+    drink: milk
     room: living_room
     accessories: 
       - glasses

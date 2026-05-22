@@ -143,9 +143,9 @@ acknowledge_drink_1:
   - "Thank you. I noted that you like {people.1.drink}."
 
 acknowledge_drink_2:
-  - "{drink} is a great choice."
-  - "I will remember that you like {drink}."
-  - "Thank you. I noted that you like {drink}."
+  - "{people.2.drink} is a great choice."
+  - "I will remember that you like {people.2.drink}."
+  - "Thank you. I noted that you like {people.2.drink}."
 
 # INTRODUCTION
 introduce_guest_1:

@@ -119,7 +119,7 @@ objects:
 people:
   - number: 1
     name: human
-	drink: beverage
+    drink: beverage
     gender: male
     age_group: adult
     emotion: happy

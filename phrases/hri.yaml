@@ -159,15 +159,15 @@ introduce_guest_2:
   - "{people.2.name}, I would like you to meet {people.1.name}. {people.1.name} enjoys {people.1.drink}."
 
 # DESCRIPTION
-describe_first_guest:
-  - "{people.2.name}, this is {people.1.name}, a {people.1.age} {people.1.gender} with {people.1.hair} and a {people.1.shirt_color} shirt."
-  - "{people.2.name}, {people.1.name} is a {people.1.gender} with {people.1.hair} wearing a {people.1.shirt_color} shirt."
-  - "{people.2.name}, you will meet {people.1.name}, a {people.1.age} {people.1.gender} wearing {people.1.accessories}."
+describe_guest_1:
+  - "{people.2.name}, this is {people.1.name}, a {people.1.age_group} {people.1.gender} with {people.1.hair_color} {people.1.hair_style}, wearing a {people.1.shirt_color} shirt and {people.1.accessories}."
+  - "{people.2.name}, {people.1.name} is a {people.1.emotion} {people.1.gender} wearing a {people.1.shirt_color} shirt and {people.1.accessories}."
+  - "{people.2.name}, you will meet {people.1.name}, a {people.1.age_group} {people.1.gender} with {people.1.hair_color} hair and {people.1.accessories}."
 
-describe_second_guest:
-  - "{people.1.name}, this is {people.2.name}, a {people.2.age} {people.2.gender} with {people.2.hair} and a {people.2.shirt_color} shirt."
-  - "{people.1.name}, {people.2.name} is a {people.2.gender} with {people.2.hair} wearing a {people.2.shirt_color} shirt."
-  - "{people.1.name}, you will meet {people.2.name}, a {people.2.age} {people.2.gender} wearing {people.2.accessories}."
+describe_guest_2:
+  - "{people.1.name}, this is {people.2.name}, a {people.2.age_group} {people.2.gender} with {people.2.hair_color} {people.2.hair_style}, wearing a {people.2.shirt_color} shirt and {people.2.accessories}."
+  - "{people.1.name}, {people.2.name} is a {people.2.emotion} {people.2.gender} wearing a {people.2.shirt_color} shirt and {people.2.accessories}."
+  - "{people.1.name}, you will meet {people.2.name}, a {people.2.age_group} {people.2.gender} with {people.2.hair_color} hair and {people.2.accessories}."
 
 # FINISH
 finish_hri:

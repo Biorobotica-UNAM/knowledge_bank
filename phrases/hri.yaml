@@ -96,9 +96,9 @@ search_guest:
   - "I am looking for the guest now."
 
 search_person:
-  - "Let me look for you, {host}."
-  - "I am searching for you, {host}."
-  - "{host}, I am looking for you now."
+  - "Let me look for you, {host.name}."
+  - "I am searching for you, {host.name}."
+  - "{host.name}, I am looking for you now."
 
 search_empty_seat:
   - "Let me find an empty seat."
@@ -107,18 +107,18 @@ search_empty_seat:
 
 # INFORM
 inform_guest_found:
-  - "I found {guest}."
-  - "{guest} is here."
-  - "I can see {guest} now."
+  - "I found a guest."
+  - "Our guest is here."
+  - "I can see a guest now."
 
 inform_person_found:
-  - "I found {host}."
-  - "{host} is here."
-  - "I can see {host} now."
+  - "I found {host.name}."
+  - "{host.name} is here."
+  - "I can see {host.name} now."
 
 inform_seat_found:
-  - "I found an empty {seat}."
-  - "There is an available {seat} here."
+  - "I found an empty seat."
+  - "There is an available seat here."
   - "I found a seat for you here."
 
 inform_present:
@@ -148,26 +148,26 @@ acknowledge_drink_2:
   - "Thank you. I noted that you like {drink}."
 
 # INTRODUCTION
-introduce_first_guest:
-  - "{first_guest}, please meet {second_guest}. {second_guest} likes {second_guest_drink}."
-  - "{first_guest}, this is {second_guest}. {second_guest} likes {second_guest_drink}."
-  - "{first_guest}, I would like you to meet {second_guest}. {second_guest} enjoys {second_guest_drink}."
+introduce_guest_1:
+  - "{people.1.name}, please meet {people.2.name}. {people.2.name} likes {people.2.drink}."
+  - "{people.1.name}, this is {people.2.name}. {people.2.name} likes {people.2.drink}."
+  - "{people.1.name}, I would like you to meet {people.2.name}. {people.2.name} enjoys {people.2.drink}."
 
-introduce_second_guest:
-  - "{second_guest}, please meet {first_guest}. {first_guest} likes {first_guest_drink}."
-  - "{second_guest}, this is {first_guest}. {first_guest} likes {first_guest_drink}."
-  - "{second_guest}, I would like you to meet {first_guest}. {first_guest} enjoys {first_guest_drink}."
+introduce_guest_2:
+  - "{people.2.name}, please meet {people.1.name}. {people.1.name} likes {people.1.drink}."
+  - "{people.2.name}, this is {people.1.name}. {people.1.name} likes {people.1.drink}."
+  - "{people.2.name}, I would like you to meet {people.1.name}. {people.1.name} enjoys {people.1.drink}."
 
 # DESCRIPTION
 describe_first_guest:
-  - "{second_guest}, this is {first_guest}, a {first_guest_age} {first_guest_gender} with {first_guest_hair} and a {first_guest_shirt_color} shirt."
-  - "{second_guest}, {first_guest} is a {first_guest_gender} with {first_guest_hair} wearing a {first_guest_shirt_color} shirt."
-  - "{second_guest}, you will meet {first_guest}, a {first_guest_age} {first_guest_gender} wearing {first_guest_accessories}."
+  - "{people.2.name}, this is {people.1.name}, a {people.1.age} {people.1.gender} with {people.1.hair} and a {people.1.shirt_color} shirt."
+  - "{people.2.name}, {people.1.name} is a {people.1.gender} with {people.1.hair} wearing a {people.1.shirt_color} shirt."
+  - "{people.2.name}, you will meet {people.1.name}, a {people.1.age} {people.1.gender} wearing {people.1.accessories}."
 
 describe_second_guest:
-  - "{first_guest}, this is {second_guest}, a {second_guest_age} {second_guest_gender} with {second_guest_hair} and a {second_guest_shirt_color} shirt."
-  - "{first_guest}, {second_guest} is a {second_guest_gender} with {second_guest_hair} wearing a {second_guest_shirt_color} shirt."
-  - "{first_guest}, you will meet {second_guest}, a {second_guest_age} {second_guest_gender} wearing {second_guest_accessories}."
+  - "{people.1.name}, this is {people.2.name}, a {people.2.age} {people.2.gender} with {people.2.hair} and a {people.2.shirt_color} shirt."
+  - "{people.1.name}, {people.2.name} is a {people.2.gender} with {people.2.hair} wearing a {people.2.shirt_color} shirt."
+  - "{people.1.name}, you will meet {people.2.name}, a {people.2.age} {people.2.gender} wearing {people.2.accessories}."
 
 # FINISH
 finish_hri:

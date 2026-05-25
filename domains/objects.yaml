@@ -1,22 +1,56 @@
 # CATEGORIES
-drinks:
+drink:
   - water
-  - coffee
-  - tea
+  - sparkling_water
+  - mineral_water
   - milk
-  - orange juice
-  - apple juice
-  - cola
-  - coke
-  - pepsi
+  - chocolate_milk
+  - almond_milk
+  - soy_milk
+  - oat_milk
+  - juice
+  - orange_juice
+  - apple_juice
+  - grape_juice
+  - pineapple_juice
+  - cranberry_juice
   - lemonade
-  - hot chocolate
-  - beer
-  - wine
-  - smoothie
+  - iced_tea
+  - green_tea
+  - black_tea
+  - herbal_tea
+  - chai_tea
+  - tea
+  - coffee
+  - black_coffee
+  - iced_coffee
   - latte
   - cappuccino
-  - juice pack
+  - espresso
+  - mocha
+  - hot_chocolate
+  - soda
+  - cola
+  - energy_drink
+  - sports_drink
+  - smoothie
+  - milkshake
+  - protein_shake
+  - coconut_water
+  - beer
+  - red_wine
+  - white_wine
+  - champagne
+  - whiskey
+  - vodka
+  - rum
+  - gin
+  - tequila
+  - cocktail
+  - margarita
+  - mojito
+  - coke
+  - pepsi
 
 fruits:
   - apple
@@ -26,7 +60,7 @@ fruits:
   - plum
 
 snacks:
-  - chocolate jello
+  - chocolate_jello
   - snack
 
 toys:
@@ -58,7 +92,7 @@ trash:
 food:
   - cereal
   - bread
-  - tomato soup
+  - tomato_soup
 
 cleaning:
   - sponge

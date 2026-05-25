@@ -1,8 +1,8 @@
 # START
 start_pnp:
-  - "Hello, I am {robot_name}. I will clean and organize the kitchen."
-  - "Hi, I am {robot_name}. I will start cleaning the kitchen."
-  - "Greetings, I am {robot_name}. I will organize the kitchen items."
+  - "Hello, I am {robot.name}. I will clean and organize the kitchen."
+  - "Hi, I am {robot.name}. I will start cleaning the kitchen."
+  - "Greetings, I am {robot.name}. I will organize the kitchen items."
 
 # NAVIGATION
 going_to_kitchen_table:
@@ -100,52 +100,177 @@ prepare_breakfast:
   - "I will set up the breakfast items."
 
 # SEARCH
-search_object:
-  - "Let me look for the {object}."
-  - "I am searching for the {object}."
-  - "I will find the {object}."
+search_cutlery:
+  - "Let me look for the cutlery."
+  - "I am searching for the cutlery."
+  - "I will find the cutlery."
 
-search_drop_location:
-  - "Let me find a place for the {object}."
-  - "I am searching for a location for the {object}."
-  - "I will look for a place to put the {object}."
+search_tableware:
+  - "Let me look for the tableware."
+  - "I am searching for the tableware."
+  - "I will find the tableware."
+
+search_trash:
+  - "Let me look for the trash item."
+  - "I am searching for the trash item."
+  - "I will find the trash item."
+
+search_grocery:
+  - "Let me look for a grocery item."
+  - "I am searching for a grocery item."
+  - "I will find a grocery item."
+
+search_breakfast_bowl:
+  - "Let me look for the bowl."
+  - "I am searching for the bowl."
+  - "I will find the bowl."
+
+search_breakfast_spoon:
+  - "Let me look for the spoon."
+  - "I am searching for the spoon."
+  - "I will find the spoon."
+
+search_breakfast_milk:
+  - "Let me look for the milk."
+  - "I am searching for the milk."
+  - "I will find the milk."
+
+search_breakfast_cereal:
+  - "Let me look for the cereal."
+  - "I am searching for the cereal."
+  - "I will find the cereal."
+
+search_dishwasher_space:
+  - "Let me find space in the dishwasher."
+  - "I am searching for a place inside the dishwasher."
+  - "I will look for space in the dishwasher."
+
+search_cabinet_space:
+  - "Let me find space in the cabinet."
+  - "I am searching for a place inside the cabinet."
+  - "I will look for space in the cabinet."
+
+search_table_space:
+  - "Let me find space on the table."
+  - "I am searching for a free place on the table."
+  - "I will look for space on the table."
+
+search_trash_bin_space:
+  - "Let me find space in the trash bin."
+  - "I am searching for a place inside the trash bin."
+  - "I will look for space in the trash bin."
 
 # INFORM
-inform_object_found:
-  - "I found the {object}."
-  - "The {object} is here."
-  - "I can see the {object} now."
+inform_cutlery_found:
+  - "I found the cutlery."
+  - "The cutlery is here."
+  - "I can see the cutlery now."
+
+inform_tableware_found:
+  - "I found the tableware."
+  - "The tableware is here."
+  - "I can see the tableware now."
+
+inform_trash_found:
+  - "I found the trash item."
+  - "The trash item is here."
+  - "I can see the trash item now."
+
+inform_grocery_found:
+  - "I found a grocery item."
+  - "The grocery item is here."
+  - "I can see the grocery item now."
+
+inform_breakfast_item_found:
+  - "I found the breakfast item."
+  - "The breakfast item is here."
+  - "I can see the breakfast item now."
 
 inform_drop_location_found:
-  - "I found a place for the {object}."
-  - "There is space for the {object} here."
-  - "I found where to place the {object}."
+  - "I found a place to put the object."
+  - "There is space available here."
+  - "I found where to place the object."
+
+inform_cutlery_not_found:
+  - "I could not find the cutlery."
+  - "The cutlery is not here."
+  - "I cannot see the cutlery."
+
+inform_tableware_not_found:
+  - "I could not find the tableware."
+  - "The tableware is not here."
+  - "I cannot see the tableware."
+
+inform_trash_not_found:
+  - "I could not find the trash item."
+  - "The trash item is not here."
+  - "I cannot see the trash item."
+
+inform_grocery_not_found:
+  - "I could not find a grocery item."
+  - "The grocery item is not here."
+  - "I cannot see the grocery item."
+
+inform_breakfast_item_not_found:
+  - "I could not find the breakfast item."
+  - "The breakfast item is not here."
+  - "I cannot see the breakfast item."
+
+inform_drop_location_not_found:
+  - "I could not find a place to put the object."
+  - "There is no free space here."
+  - "I cannot find where to place the object."
 
 # ACKNOWLEDGE
-acknowledge_tableware:
-  - "This is a {object}."
-  - "I identified the {object}."
-  - "The object is a {object}."
+acknowledge_tableware_1:
+  - "This is a {objects.1.name}."
+  - "I identified the {objects.1.name}."
+  - "The object is a {objects.1.name}."
 
-acknowledge_cutlery:
-  - "This is a {object}."
-  - "I identified the {object}."
-  - "The object is a {object}."
+acknowledge_tableware_2:
+  - "This is a {objects.2.name}."
+  - "I identified the {objects.2.name}."
+  - "The object is a {objects.2.name}."
 
-acknowledge_trash:
-  - "This is a {object}."
-  - "I identified the {object}."
-  - "The object is a {object}."
+acknowledge_cutlery_1:
+  - "This is a {objects.3.name}."
+  - "I identified the {objects.3.name}."
+  - "The object is a {objects.3.name}."
 
-acknowledge_grocery:
-  - "This is a {object}."
-  - "I identified the {object}."
-  - "The object is a {object}."
+acknowledge_trash_1:
+  - "This is a {objects.4.name}."
+  - "I identified the {objects.4.name}."
+  - "The object is a {objects.4.name}."
 
-acknowledge_breakfast_item:
-  - "This is a {object}."
-  - "I identified the {object}."
-  - "The object is a {object}."
+acknowledge_grocery_1:
+  - "This is a {objects.5.name}."
+  - "I identified the {objects.5.name}."
+  - "The object is a {objects.5.name}."
+
+acknowledge_grocery_2:
+  - "This is a {objects.6.name}."
+  - "I identified the {objects.6.name}."
+  - "The object is a {objects.6.name}."
+
+acknowledge_breakfast_bowl:
+  - "This is a {objects.7.name}."
+  - "I identified the {objects.7.name}."
+  - "The object is a {objects.7.name}."
+
+acknowledge_breakfast_spoon:
+  - "This is a {objects.8.name}."
+  - "I identified the {objects.8.name}."
+  - "The object is a {objects.8.name}."
+
+acknowledge_breakfast_milk:
+  - "This is a {objects.9.name}."
+  - "I identified the {objects.9.name}."
+  - "The object is a {objects.9.name}."
+
+acknowledge_breakfast_cereal:
+  - "This is a {objects.10.name}."
+  - "I identified the {objects.10.name}."
+  - "The object is a {objects.10.name}."
 
 # MOVE
 move_tableware_to_dishwasher:

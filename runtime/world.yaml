@@ -12,6 +12,23 @@ objects:
     name: apple
     locations:
       - kitchen_table
+    navigation:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+    manipulation:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+
 
   - number: 2
     name: banana
@@ -117,7 +134,7 @@ objects:
 
 # --- PEOPLE ---
 people:
-  - number: 1
+  - number: 0
     name: john
     gender: male
     age_group: adult
@@ -130,6 +147,18 @@ people:
     accessories: 
       - glasses
       - hat 
+    order:
+      - milk
+      - apple
+      - cereal
+    navigation:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
 
 # LOCATIONS
 known_locations:

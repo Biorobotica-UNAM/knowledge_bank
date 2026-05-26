@@ -5,9 +5,110 @@ robot:
   left_hand: nothing
   right_hand: nothing
 
-# --- OBJECTS ---
-objects:
+# --- CUTLERY ---
+cutlery:
+  - number: 1
+    name: spoon
+    locations:
+      - kitchen_table
+    navigation:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+    manipulation:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
 
+  - number: 2
+    name: fork
+    locations:
+      - kitchen_table
+
+  - number: 3
+    name: knife
+    locations:
+      - kitchen_table
+
+# --- TABLEWARE ---
+tableware:
+  - number: 1
+    name: cup
+    locations:
+      - kitchen_table
+
+  - number: 2
+    name: plate
+    locations:
+      - kitchen_table
+
+# --- TRASH ---
+trash:
+  - number: 1
+    name: napkin
+    locations:
+      - kitchen_table
+      - trash_bin
+
+# --- BREAKFAST ITEMS ---
+breakfast_items:
+  - number: 1
+    name: bowl
+    locations:
+      - kitchen_table
+
+  - number: 2
+    name: spoon
+    locations:
+      - kitchen_table
+
+  - number: 3
+    name: milk
+    locations:
+      - cabinet
+
+  - number: 4
+    name: cereal
+    locations:
+      - cabinet
+
+# --- CABINET OBJECTS ---
+cabinet_objects:
+  - number: 1
+    name: cereal
+    locations:
+      - cabinet
+
+  - number: 2
+    name: cleaning_supply
+    locations:
+      - cabinet
+      - desk
+
+# --- DISHWASHER TAB ---
+dishwasher_tab:
+  - number: 1
+    name: dishwasher_tab
+    locations:
+      - kitchen_table
+
+# --- FLOOR OBJECTS ---
+floor_objects:
+  - number: 1
+    name: napkin
+    locations:
+      - trash_bin
+
+# --- OTHER OBJECTS ---
+objects:
   - number: 1
     name: apple
     locations:
@@ -28,7 +129,6 @@ objects:
       - 0.0
       - 0.0
       - 0.0
-
 
   - number: 2
     name: banana
@@ -51,90 +151,39 @@ objects:
       - refrigerator
 
   - number: 6
-    name: milk
-    locations:
-      - pantry
-
-  - number: 7
     name: juice_pack
     locations:
       - refrigerator
 
-  - number: 8
-    name: cup
-    locations:
-      - kitchen_table
-
-  - number: 9
+  - number: 7
     name: tray
     locations:
       - living_room
 
-  - number: 10
+  - number: 8
     name: snack
     locations:
       - pantry
 
-  - number: 11
-    name: spoon
-    locations:
-      - kitchen_table
-
-  - number: 12
+  - number: 9
     name: dish
     locations:
       - kitchen_table
 
-  - number: 13
-    name: fork
-    locations:
-      - kitchen_table
-
-  - number: 14
-    name: knife
-    locations:
-      - kitchen_table
-
-  - number: 15
-    name: bowl
-    locations:
-      - kitchen_table
-
-  - number: 16
-    name: cereal
-    locations:
-      - cabinet
-
-  - number: 17
-    name: plate
-    locations:
-      - kitchen_table
-
-  - number: 18
-    name: napkin
-    locations:
-      - kitchen_table
-
-  - number: 19
+  - number: 10
     name: toy
     locations:
       - living_room
       - bedroom
 
-  - number: 20
+  - number: 11
     name: dice
     locations:
       - tv_stand
 
-  - number: 21
-    name: cleaning_supply
-    locations:
-      - cabinet
-      - desk
-
-# --- PEOPLE ---
-people:
-  - number: 0
+# --- GUEST ---
+guest:
+  - number: 1
     name: john
     gender: male
     age_group: adult
@@ -144,9 +193,9 @@ people:
     shirt_color: unknown
     drink: milk
     room: living_room
-    accessories: 
+    accessories:
       - glasses
-      - hat 
+      - hat
     order:
       - milk
       - apple
@@ -160,7 +209,63 @@ people:
       - 0.0
       - 0.0
 
-# LOCATIONS
+# --- HOST ---
+host:
+  - number: 1
+    name: john
+    gender: male
+    age_group: adult
+    emotion: happy
+    hair_color: unknown
+    hair_style: unknown
+    shirt_color: unknown
+    drink: milk
+    room: living_room
+    accessories:
+      - glasses
+      - hat
+    order:
+      - milk
+      - apple
+      - cereal
+    navigation:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+
+# --- CUSTOMER ---
+customer:
+  - number: 1
+    name: john
+    gender: male
+    age_group: adult
+    emotion: happy
+    hair_color: unknown
+    hair_style: unknown
+    shirt_color: unknown
+    drink: milk
+    room: living_room
+    accessories:
+      - glasses
+      - hat
+    order:
+      - milk
+      - apple
+      - cereal
+    navigation:
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 0.0
+
+# --- KNOWN LOCATIONS ---
 known_locations:
   - kitchen
   - living_room

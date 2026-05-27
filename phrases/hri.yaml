@@ -65,24 +65,24 @@ ask_drink:
 
 # CONFIRMATION
 confirm_name_1:
-  - "You are {people.1.name}, correct?"
-  - "Did you say your name is {people.1.name}?"
-  - "Is your name {people.1.name}?"
+  - "You are {guest.1.name}, correct?"
+  - "Did you say your name is {guest.1.name}?"
+  - "Is your name {guest.1.name}?"
 
 confirm_name_2:
-  - "You are {people.2.name}, correct?"
-  - "Did you say your name is {people.2.name}?"
-  - "Is your name {people.2.name}?"
+  - "You are {guest.2.name}, correct?"
+  - "Did you say your name is {guest.2.name}?"
+  - "Is your name {guest.2.name}?"
 
 confirm_drink_1:
-  - "You like {people.1.drink}, correct?"
-  - "Did you say you like {people.1.drink}?"
-  - "Is {people.1.drink} your favorite drink?"
+  - "You like {guest.1.drink}, correct?"
+  - "Did you say you like {guest.1.drink}?"
+  - "Is {guest.1.drink} your favorite drink?"
 
 confirm_drink_2:
-  - "You like {people.2.drink}, correct?"
-  - "Did you say you like {people.2.drink}?"
-  - "Is {people.2.drink} your favorite drink?"
+  - "You like {guest.2.drink}, correct?"
+  - "Did you say you like {guest.2.drink}?"
+  - "Is {guest.2.drink} your favorite drink?"
 
 # SEARCH
 search_guest_1:
@@ -153,46 +153,46 @@ inform_present:
 
 # ACKNOWLEDGE
 acknowledge_name_1:
-  - "Nice to meet you, {people.1.name}."
-  - "Hello, {people.1.name}. Nice to meet you."
-  - "It is great to meet you, {people.1.name}."
+  - "Nice to meet you, {guest.1.name}."
+  - "Hello, {guest.1.name}. Nice to meet you."
+  - "It is great to meet you, {guest.1.name}."
 
 acknowledge_name_2:
-  - "Nice to meet you, {people.2.name}."
-  - "Hello, {people.2.name}. Nice to meet you."
-  - "It is great to meet you, {people.2.name}."
+  - "Nice to meet you, {guest.2.name}."
+  - "Hello, {guest.2.name}. Nice to meet you."
+  - "It is great to meet you, {guest.2.name}."
 
 acknowledge_drink_1:
-  - "{people.1.drink} is a great choice."
-  - "I will remember that you like {people.1.drink}."
-  - "Thank you. I noted that you like {people.1.drink}."
+  - "{guest.1.drink} is a great choice."
+  - "I will remember that you like {guest.1.drink}."
+  - "Thank you. I noted that you like {guest.1.drink}."
 
 acknowledge_drink_2:
-  - "{people.2.drink} is a great choice."
-  - "I will remember that you like {people.2.drink}."
-  - "Thank you. I noted that you like {people.2.drink}."
+  - "{guest.2.drink} is a great choice."
+  - "I will remember that you like {guest.2.drink}."
+  - "Thank you. I noted that you like {guest.2.drink}."
 
 # INTRODUCTION
 introduce_guest_1:
-  - "{people.1.name}, please meet {people.2.name}. {people.2.name} likes {people.2.drink}."
-  - "{people.1.name}, this is {people.2.name}. {people.2.name} likes {people.2.drink}."
-  - "{people.1.name}, I would like you to meet {people.2.name}. {people.2.name} enjoys {people.2.drink}."
+  - "{guest.1.name}, please meet {guest.2.name}. {guest.2.name} likes {guest.2.drink}."
+  - "{guest.1.name}, this is {guest.2.name}. {guest.2.name} likes {guest.2.drink}."
+  - "{guest.1.name}, I would like you to meet {guest.2.name}. {guest.2.name} enjoys {guest.2.drink}."
 
 introduce_guest_2:
-  - "{people.2.name}, please meet {people.1.name}. {people.1.name} likes {people.1.drink}."
-  - "{people.2.name}, this is {people.1.name}. {people.1.name} likes {people.1.drink}."
-  - "{people.2.name}, I would like you to meet {people.1.name}. {people.1.name} enjoys {people.1.drink}."
+  - "{guest.2.name}, please meet {guest.1.name}. {guest.1.name} likes {guest.1.drink}."
+  - "{guest.2.name}, this is {guest.1.name}. {guest.1.name} likes {guest.1.drink}."
+  - "{guest.2.name}, I would like you to meet {guest.1.name}. {guest.1.name} enjoys {guest.1.drink}."
 
 # DESCRIPTION
 describe_guest_1:
-  - "{people.2.name}, this is {people.1.name}, a {people.1.age_group} {people.1.gender} with {people.1.hair_color} {people.1.hair_style}, wearing a {people.1.shirt_color} shirt and {people.1.accessories}."
-  - "{people.2.name}, {people.1.name} is a {people.1.emotion} {people.1.gender} wearing a {people.1.shirt_color} shirt and {people.1.accessories}."
-  - "{people.2.name}, you will meet {people.1.name}, a {people.1.age_group} {people.1.gender} with {people.1.hair_color} hair and {people.1.accessories}."
+  - "{guest.2.name}, this is {guest.1.name}, a {guest.1.age_group} {guest.1.gender} with {guest.1.hair_color} {guest.1.hair_style}, wearing a {guest.1.shirt_color} shirt and {guest.1.accessories}."
+  - "{guest.2.name}, {guest.1.name} is a {guest.1.emotion} {guest.1.gender} wearing a {guest.1.shirt_color} shirt and {guest.1.accessories}."
+  - "{guest.2.name}, you will meet {guest.1.name}, a {guest.1.age_group} {guest.1.gender} with {guest.1.hair_color} hair and {guest.1.accessories}."
 
 describe_guest_2:
-  - "{people.1.name}, this is {people.2.name}, a {people.2.age_group} {people.2.gender} with {people.2.hair_color} {people.2.hair_style}, wearing a {people.2.shirt_color} shirt and {people.2.accessories}."
-  - "{people.1.name}, {people.2.name} is a {people.2.emotion} {people.2.gender} wearing a {people.2.shirt_color} shirt and {people.2.accessories}."
-  - "{people.1.name}, you will meet {people.2.name}, a {people.2.age_group} {people.2.gender} with {people.2.hair_color} hair and {people.2.accessories}."
+  - "{guest.1.name}, this is {guest.2.name}, a {guest.2.age_group} {guest.2.gender} with {guest.2.hair_color} {guest.2.hair_style}, wearing a {guest.2.shirt_color} shirt and {guest.2.accessories}."
+  - "{guest.1.name}, {guest.2.name} is a {guest.2.emotion} {guest.2.gender} wearing a {guest.2.shirt_color} shirt and {guest.2.accessories}."
+  - "{guest.1.name}, you will meet {guest.2.name}, a {guest.2.age_group} {guest.2.gender} with {guest.2.hair_color} hair and {guest.2.accessories}."
 
 # FINISH
 finish_hri:

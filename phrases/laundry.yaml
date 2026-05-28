@@ -1,41 +1,51 @@
-# START
+# ==============================================================================
+# KNOWLEDGE BANK PHRASES — LAUNDRY CHALLENGE (JUSTINA ROBOT)
+# ==============================================================================
+
+# ── MACRO STATE: START_LAUNDRY ────────────────────────────────────────────────
 start_laundry:
-  - "Hello, I am {robot_name}. I will take care of the laundry."
-  - "Hi, I am {robot_name}. I will remove and fold the clothes."
-  - "Greetings, I am {robot_name}. I will manage the laundry task."
+  - "Hello, I am {robot_name}. I will take care of the laundry challenge."
+  - "Hi, I am {robot_name}. I will manage the clothes and clean them."
+  - "Greetings, I am {robot_name}. I am ready to start the laundry task."
 
-# REQUESTS
-request_open_washing_machine_door:
-  - "Please open the door so I can proceed."
-  - "I am waiting for the door to be opened."
-  - "Kindly open the door so I may pass."
+# ── MACRO STATE: NAVIGATE_TO_LAUNDRY ──────────────────────────────────────────
+request_open_door:
+  - "Please open the door."
+  - "Please open the door so I may continue."
+  - "Kindly open the door for me."
 
-# NAVIGATION
-going_to:
-  - "I am heading to the {location} now."
-  - "Navigating to the {location}."
-  - "Proceeding to the {location}."
-  - "On my way to the {location}."
-  - "I will move toward the {location}."
+move_to_laundry_room:
+  - "I am heading to the laundry room now."
+  - "Navigating to the laundry room."
+  - "Proceeding to the laundry room."
+  - "On my way to the laundry room."
+  - "I will move toward the laundry room."
 
-arrived_at:
-  - "I have arrived at the {location}."
-  - "I am now at the {location}."
-  - "Navigation to the {location} is complete."
-  - "{location} reached."
-  - "I am ready at the {location}."
+arrived_laundry_room:
+  - "I have arrived at the laundry room."
+  - "I am now at the laundry room."
+  - "Navigation to the laundry room is complete."
+  - "The laundry room has been reached."
+  - "I am ready at the laundry room."
 
-# INTERACTION
-identify_object:
-  - "I found a {object}."
-  - "This is a {object}. "
-  - "I identified a {object}."
+# ── MACRO STATE: RETRIEVE_CLOTHES ─────────────────────────────────────────────
+announce_find_clothes:
+  - "I am going to scan the area to search for clothes."
+  - "Let me check the surroundings to locate the garments."
+  - "I will look for the clothes right now."
 
-find_object:
-  - "Let me see if there is {object}."
+acknowledge_cloth:
+  - "I found a piece of cloth."
+  - "I have successfully identified the target cloth."
+  - "The clothes have been detected."
 
-# FINISH
+move_to_table:
+  - "I am carrying the cloth to the kitchen table now."
+  - "Navigating to the table to place the garments."
+  - "Moving toward the kitchen table."
+
+# ── MACRO STATE: FINISH_LAUNDRY ───────────────────────────────────────────────
 finish_laundry:
   - "The laundry task is now complete."
-  - "I have finished taking the clothes out of the washing machine and folding them."
-  - "The clothes are folded and the task is finished."
+  - "I have finished taking the clothes out and placing them on the table."
+  - "The task is finished. Thank you."

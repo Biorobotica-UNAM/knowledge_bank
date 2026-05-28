@@ -8,6 +8,7 @@ install(
     domains
     phrases
     runtime
+    dictionaries
   DESTINATION share/${PROJECT_NAME}
 )
 

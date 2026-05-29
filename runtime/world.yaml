@@ -185,12 +185,10 @@ objects:
 guest:
   - number: 1
     name: john
-    gender: male
-    age_group: adult
-    emotion: happy
-    hair_color: unknown
-    hair_style: unknown
-    shirt_color: unknown
+    description: 
+      - handsome
+      - old
+      - bold
     drink: milk
     room: living_room
     accessories:
@@ -213,12 +211,10 @@ guest:
 host:
   - number: 1
     name: john
-    gender: male
-    age_group: adult
-    emotion: happy
-    hair_color: unknown
-    hair_style: unknown
-    shirt_color: unknown
+    description: 
+      - handsome
+      - old
+      - bold
     drink: milk
     room: living_room
     accessories:
@@ -241,12 +237,10 @@ host:
 customer:
   - number: 1
     name: john
-    gender: male
-    age_group: adult
-    emotion: happy
-    hair_color: unknown
-    hair_style: unknown
-    shirt_color: unknown
+    description: 
+      - handsome
+      - old
+      - bold
     drink: milk
     room: living_room
     accessories:

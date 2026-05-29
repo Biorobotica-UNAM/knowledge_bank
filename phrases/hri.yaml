@@ -43,9 +43,9 @@ instruct_follow_robot:
   - "Right this way, please."
 
 instruct_follow_person:
-  - "Please lead the way."
-  - "I am ready to follow you."
-  - "Show me the way and I will follow."
+  - "Say CONTINUE and I will start following you."
+  - "I am ready to follow you. Say CONTINUE to begin."
+  - "When you are ready, say CONTINUE and I will follow you."
 
 instruct_take_a_seat:
   - "Please take a seat here."
@@ -62,27 +62,6 @@ ask_drink:
   - "What is your favorite drink?"
   - "Which drink do you prefer?"
   - "What drink do you like the most?"
-
-# CONFIRMATION
-confirm_name_1:
-  - "You are {guest.1.name}, correct?"
-  - "Did you say your name is {guest.1.name}?"
-  - "Is your name {guest.1.name}?"
-
-confirm_name_2:
-  - "You are {guest.2.name}, correct?"
-  - "Did you say your name is {guest.2.name}?"
-  - "Is your name {guest.2.name}?"
-
-confirm_drink_1:
-  - "You like {guest.1.drink}, correct?"
-  - "Did you say you like {guest.1.drink}?"
-  - "Is {guest.1.drink} your favorite drink?"
-
-confirm_drink_2:
-  - "You like {guest.2.drink}, correct?"
-  - "Did you say you like {guest.2.drink}?"
-  - "Is {guest.2.drink} your favorite drink?"
 
 # SEARCH
 search_guest_1:
@@ -106,50 +85,10 @@ search_empty_seat:
   - "I am looking for a seat now."
 
 # INFORM
-inform_guest_1_found:
-  - "I found the first guest."
-  - "The first guest is here."
-  - "I can see the first guest now."
-
-inform_guest_1_not_found:
-  - "I could not find the first guest."
-  - "The first guest is not here."
-  - "I cannot see the first guest."
-
-inform_guest_2_found:
-  - "I found the second guest."
-  - "The second guest is here."
-  - "I can see the second guest now."
-
-inform_guest_2_not_found:
-  - "I could not find the second guest."
-  - "The second guest is not here."
-  - "I cannot see the second guest."
-
-inform_host_found:
-  - "I found the host."
-  - "The host is here."
-  - "I can see the host now."
-
-inform_host_not_found:
-  - "I could not find the host."
-  - "The host is not here."
-  - "I cannot see the host."
-
-inform_seat_found:
-  - "I found an empty seat."
-  - "There is an available seat here."
-  - "I found a seat for you here."
-
-inform_seat_not_found:
-  - "I could not find an empty seat."
-  - "There are no available seats here."
-  - "I cannot find a free seat right now."
-
 inform_present:
-  - "Your guest brought this bag for you."
-  - "This bag is from your guest."
-  - "Your guest asked me to give you this bag."
+  - "Your guest brought this present for you."
+  - "This present is from your guest."
+  - "Your guest asked me to give you this present."
 
 # ACKNOWLEDGE
 acknowledge_name_1:

@@ -5,260 +5,6 @@ robot:
   left_hand: nothing
   right_hand: nothing
 
-# --- CUTLERY ---
-cutlery:
-  - number: 1
-    name: spoon
-    locations:
-      - kitchen_table
-    navigation:
-      - 0.0
-      - 0.0
-      - 0.0
-      - 0.0
-      - 0.0
-      - 0.0
-      - 0.0
-    manipulation:
-      - 0.0
-      - 0.0
-      - 0.0
-      - 0.0
-      - 0.0
-      - 0.0
-      - 0.0
-
-  - number: 2
-    name: fork
-    locations:
-      - kitchen_table
-
-  - number: 3
-    name: knife
-    locations:
-      - kitchen_table
-
-# --- TABLEWARE ---
-tableware:
-  - number: 1
-    name: cup
-    locations:
-      - kitchen_table
-
-  - number: 2
-    name: plate
-    locations:
-      - kitchen_table
-
-# --- TRASH ---
-trash:
-  - number: 1
-    name: napkin
-    locations:
-      - kitchen_table
-      - trash_bin
-
-# --- BREAKFAST ITEMS ---
-breakfast_items:
-  - number: 1
-    name: bowl
-    locations:
-      - kitchen_table
-
-  - number: 2
-    name: spoon
-    locations:
-      - kitchen_table
-
-  - number: 3
-    name: milk
-    locations:
-      - cabinet
-
-  - number: 4
-    name: cereal
-    locations:
-      - cabinet
-
-# --- CABINET OBJECTS ---
-cabinet_objects:
-  - number: 1
-    name: cereal
-    locations:
-      - cabinet
-
-  - number: 2
-    name: cleaning_supply
-    locations:
-      - cabinet
-      - desk
-
-# --- DISHWASHER TAB ---
-dishwasher_tab:
-  - number: 1
-    name: dishwasher_tab
-    locations:
-      - kitchen_table
-
-# --- FLOOR OBJECTS ---
-floor_objects:
-  - number: 1
-    name: napkin
-    locations:
-      - trash_bin
-
-# --- OTHER OBJECTS ---
-objects:
-  - number: 1
-    name: apple
-    locations:
-      - kitchen_table
-    navigation:
-      - 0.0
-      - 0.0
-      - 0.0
-      - 0.0
-      - 0.0
-      - 0.0
-      - 0.0
-    manipulation:
-      - 0.0
-      - 0.0
-      - 0.0
-      - 0.0
-      - 0.0
-      - 0.0
-      - 0.0
-
-  - number: 2
-    name: banana
-    locations:
-      - kitchen_table
-
-  - number: 3
-    name: orange
-    locations:
-      - kitchen
-
-  - number: 4
-    name: pear
-    locations:
-      - bedroom
-
-  - number: 5
-    name: plum
-    locations:
-      - refrigerator
-
-  - number: 6
-    name: juice_pack
-    locations:
-      - refrigerator
-
-  - number: 7
-    name: tray
-    locations:
-      - living_room
-
-  - number: 8
-    name: snack
-    locations:
-      - pantry
-
-  - number: 9
-    name: dish
-    locations:
-      - kitchen_table
-
-  - number: 10
-    name: toy
-    locations:
-      - living_room
-      - bedroom
-
-  - number: 11
-    name: dice
-    locations:
-      - tv_stand
-
-# --- GUEST ---
-guest:
-  - number: 1
-    name: john
-    description: 
-      - handsome
-      - old
-      - bold
-    drink: milk
-    room: living_room
-    accessories:
-      - glasses
-      - hat
-    order:
-      - milk
-      - apple
-      - cereal
-    navigation:
-      - 0.0
-      - 0.0
-      - 0.0
-      - 0.0
-      - 0.0
-      - 0.0
-      - 0.0
-
-# --- HOST ---
-host:
-  - number: 1
-    name: john
-    description: 
-      - handsome
-      - old
-      - bold
-    drink: milk
-    room: living_room
-    accessories:
-      - glasses
-      - hat
-    order:
-      - milk
-      - apple
-      - cereal
-    navigation:
-      - 0.0
-      - 0.0
-      - 0.0
-      - 0.0
-      - 0.0
-      - 0.0
-      - 0.0
-
-# --- CUSTOMER ---
-customer:
-  - number: 1
-    name: john
-    description: 
-      - handsome
-      - old
-      - bold
-    drink: milk
-    room: living_room
-    accessories:
-      - glasses
-      - hat
-    order:
-      - milk
-      - apple
-      - cereal
-    navigation:
-      - 0.0
-      - 0.0
-      - 0.0
-      - 0.0
-      - 0.0
-      - 0.0
-      - 0.0
-
 # --- KNOWN LOCATIONS ---
 known_locations:
   - kitchen
@@ -293,3 +39,178 @@ known_locations:
   - lamp
   - desk_lamp
   - potted_plant
+
+# --- CUTLERY ---
+cutlery:
+  type: object
+  entries:
+    - number: 1
+      name: spoon
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 2
+      name: fork
+      locations: [kitchen_table]
+
+    - number: 3
+      name: knife
+      locations: [kitchen_table]
+
+# --- TABLEWARE ---
+tableware:
+  type: object
+  entries:
+    - number: 1
+      name: cup
+      locations: [kitchen_table]
+
+    - number: 2
+      name: plate
+      locations: [kitchen_table]
+
+# --- TRASH ---
+trash:
+  type: object
+  entries:
+    - number: 1
+      name: napkin
+      locations: [kitchen_table, trash_bin]
+
+# --- BREAKFAST ITEMS ---
+breakfast_items:
+  type: object
+  entries:
+    - number: 1
+      name: bowl
+      locations: [kitchen_table]
+
+    - number: 2
+      name: spoon
+      locations: [kitchen_table]
+
+    - number: 3
+      name: milk
+      locations: [cabinet]
+
+    - number: 4
+      name: cereal
+      locations: [cabinet]
+
+# --- CABINET OBJECTS ---
+cabinet_objects:
+  type: object
+  entries:
+    - number: 1
+      name: cereal
+      locations: [cabinet]
+
+    - number: 2
+      name: cleaning_supply
+      locations: [cabinet, desk]
+
+# --- DISHWASHER TAB ---
+dishwasher_tab:
+  type: object
+  entries:
+    - number: 1
+      name: dishwasher_tab
+      locations: [kitchen_table]
+
+# --- FLOOR OBJECTS ---
+floor_objects:
+  type: object
+  entries:
+    - number: 1
+      name: napkin
+      locations: [trash_bin]
+
+# --- OTHER OBJECTS ---
+objects:
+  type: object
+  entries:
+    - number: 1
+      name: apple
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 2
+      name: banana
+      locations: [kitchen_table]
+
+    - number: 3
+      name: orange
+      locations: [kitchen]
+
+    - number: 4
+      name: pear
+      locations: [bedroom]
+
+    - number: 5
+      name: plum
+      locations: [refrigerator]
+
+    - number: 6
+      name: juice_pack
+      locations: [refrigerator]
+
+    - number: 7
+      name: tray
+      locations: [living_room]
+
+    - number: 8
+      name: snack
+      locations: [pantry]
+
+    - number: 9
+      name: dish
+      locations: [kitchen_table]
+
+    - number: 10
+      name: toy
+      locations: [living_room, bedroom]
+
+    - number: 11
+      name: dice
+      locations: [tv_stand]
+
+# --- GUEST ---
+guest:
+  type: people
+  entries:
+    - number: 1
+      name: john
+      description: [handsome, old, bold]
+      drink: milk
+      room: living_room
+      accessories: [glasses, hat]
+      order: [milk, apple, cereal]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+# --- HOST ---
+host:
+  type: people
+  entries:
+    - number: 1
+      name: john
+      description: [handsome, old, bold]
+      drink: milk
+      room: living_room
+      accessories: [glasses, hat]
+      order: [milk, apple, cereal]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+# --- CUSTOMER ---
+customer:
+  type: people
+  entries:
+    - number: 1
+      name: john
+      description: [handsome, old, bold]
+      drink: milk
+      room: living_room
+      accessories: [glasses, hat]
+      order: [milk, apple, cereal]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]

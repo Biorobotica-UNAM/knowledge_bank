@@ -124,14 +124,14 @@ introduce_guest_2:
 
 # DESCRIPTION
 describe_guest_1:
-  - "{guest.2.name}, this is {guest.1.name}, a {guest.1.age_group} {guest.1.gender} with {guest.1.hair_color} {guest.1.hair_style}, wearing a {guest.1.shirt_color} shirt and {guest.1.accessories}."
-  - "{guest.2.name}, {guest.1.name} is a {guest.1.emotion} {guest.1.gender} wearing a {guest.1.shirt_color} shirt and {guest.1.accessories}."
-  - "{guest.2.name}, you will meet {guest.1.name}, a {guest.1.age_group} {guest.1.gender} with {guest.1.hair_color} hair and {guest.1.accessories}."
+  - "{guest.1.name} is a {guest.1.description}."
+  - "{guest.1.name} looks like a {guest.1.description}."
+  - "{guest.1.name} appears as a {guest.1.description}."
 
 describe_guest_2:
-  - "{guest.1.name}, this is {guest.2.name}, a {guest.2.age_group} {guest.2.gender} with {guest.2.hair_color} {guest.2.hair_style}, wearing a {guest.2.shirt_color} shirt and {guest.2.accessories}."
-  - "{guest.1.name}, {guest.2.name} is a {guest.2.emotion} {guest.2.gender} wearing a {guest.2.shirt_color} shirt and {guest.2.accessories}."
-  - "{guest.1.name}, you will meet {guest.2.name}, a {guest.2.age_group} {guest.2.gender} with {guest.2.hair_color} hair and {guest.2.accessories}."
+  - "{guest.2.name} is a {guest.2.description}."
+  - "{guest.2.name} looks like a {guest.2.description}."
+  - "{guest.2.name} appears as a {guest.2.description}."
 
 # FINISH
 finish_hri:

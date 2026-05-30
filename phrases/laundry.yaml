@@ -1,0 +1,51 @@
+# ==============================================================================
+# KNOWLEDGE BANK PHRASES — LAUNDRY CHALLENGE (JUSTINA ROBOT)
+# ==============================================================================
+
+# ── MACRO STATE: START_LAUNDRY ────────────────────────────────────────────────
+start_laundry:
+  - "Hello, I am {robot_name}. I will take care of the laundry challenge."
+  - "Hi, I am {robot_name}. I will manage the clothes and clean them."
+  - "Greetings, I am {robot_name}. I am ready to start the laundry task."
+
+# ── MACRO STATE: NAVIGATE_TO_LAUNDRY ──────────────────────────────────────────
+request_open_door:
+  - "Please open the door."
+  - "Please open the door so I may continue."
+  - "Kindly open the door for me."
+
+move_to_laundry_room:
+  - "I am heading to the laundry room now."
+  - "Navigating to the laundry room."
+  - "Proceeding to the laundry room."
+  - "On my way to the laundry room."
+  - "I will move toward the laundry room."
+
+arrived_laundry_room:
+  - "I have arrived at the laundry room."
+  - "I am now at the laundry room."
+  - "Navigation to the laundry room is complete."
+  - "The laundry room has been reached."
+  - "I am ready at the laundry room."
+
+# ── MACRO STATE: RETRIEVE_CLOTHES ─────────────────────────────────────────────
+announce_find_clothes:
+  - "I am going to scan the area to search for clothes."
+  - "Let me check the surroundings to locate the garments."
+  - "I will look for the clothes right now."
+
+acknowledge_cloth:
+  - "I found a piece of cloth."
+  - "I have successfully identified the target cloth."
+  - "The clothes have been detected."
+
+move_to_table:
+  - "I am carrying the cloth to the kitchen table now."
+  - "Navigating to the table to place the garments."
+  - "Moving toward the kitchen table."
+
+# ── MACRO STATE: FINISH_LAUNDRY ───────────────────────────────────────────────
+finish_laundry:
+  - "The laundry task is now complete."
+  - "I have finished taking the clothes out and placing them on the table."
+  - "The task is finished. Thank you."

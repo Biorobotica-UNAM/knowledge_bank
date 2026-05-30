@@ -1,0 +1,60 @@
+# START
+start_restaurant:
+  - "Hello, I am {robot_name}. I will serve the customers today."
+  - "Hi, I am {robot_name}. I will take and deliver the orders."
+  - "Greetings, I am {robot_name}. I will attend the customers."
+
+# REQUESTS
+request_open_dishwasher_door:
+  - "Please open the door so I can proceed."
+  - "I am waiting for the door to be opened."
+  - "Kindly open the door so I may pass."
+
+send_order:
+  - "The customer ordered {order}."
+  - "I have an order for {order}."
+  - "The requested order is {order}."
+  - "Here is the order from the customer {order}."
+
+# NAVIGATION
+going_to:
+  - "I am heading to the {location} now."
+  - "Navigating to the {location}."
+  - "Proceeding to the {location}."
+  - "On my way to the {location}."
+  - "I will move toward the {location}."
+
+arrived_at:
+  - "I have arrived at the {location}."
+  - "I am now at the {location}."
+  - "Navigation to the {location} is complete."
+  - "{location} reached."
+  - "I am ready at the {location}."
+
+# INQUIRY
+ask_order_item_1:
+  - "Excuse me, what is your name?"
+  - "May I know your name, please?"
+  - "Could you please tell me your name?"
+  - "Would you mind telling me your name?"
+
+# CONFIRMATION
+confirm_order:
+  - "You ordered {order}. Is that correct?"
+  - "Just to confirm, you ordered {order}."
+  - "If I understood correctly, you ordered {order}. Didn´t you?"
+
+# INTERACTION
+identify_category:
+  - "I found a {object}, which belongs to the {category} category."
+  - "This is a {object}. Category {category}."
+  - "I identified a {object}. It is a {category}."
+
+find_object:
+  - "Let me see if there is {object}."
+
+# FINISH
+finish_restaurant:
+  - "I have finished the waiter task. The orders have been delivered."
+  - "All orders are complete. The customers have been served."
+  - "The food has been delivered to the customers."

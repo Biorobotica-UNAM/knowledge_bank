@@ -1,0 +1,101 @@
+# CATEGORIES
+drink:
+  - water
+  - sparkling_water
+  - mineral_water
+  - milk
+  - chocolate_milk
+  - almond_milk
+  - soy_milk
+  - oat_milk
+  - juice
+  - orange_juice
+  - apple_juice
+  - grape_juice
+  - pineapple_juice
+  - cranberry_juice
+  - lemonade
+  - iced_tea
+  - green_tea
+  - black_tea
+  - herbal_tea
+  - chai_tea
+  - tea
+  - coffee
+  - black_coffee
+  - iced_coffee
+  - latte
+  - cappuccino
+  - espresso
+  - mocha
+  - hot_chocolate
+  - soda
+  - cola
+  - energy_drink
+  - sports_drink
+  - smoothie
+  - milkshake
+  - protein_shake
+  - coconut_water
+  - beer
+  - red_wine
+  - white_wine
+  - champagne
+  - whiskey
+  - vodka
+  - rum
+  - gin
+  - tequila
+  - cocktail
+  - margarita
+  - mojito
+  - coke
+  - pepsi
+
+fruits:
+  - apple
+  - banana
+  - orange
+  - pear
+  - plum
+
+snacks:
+  - chocolate_jello
+  - snack
+
+toys:
+  - toy
+  - dice
+
+cutlery:
+  - fork
+  - knife
+  - spoon
+  - chopsticks
+
+tableware:
+  - plate
+  - bowl
+  - cup
+  - mug
+  - glass
+  - dish
+  - tray
+
+trash:
+  - napkin
+  - wrapper
+  - can
+  - bottle
+  - tissue
+
+food:
+  - cereal
+  - bread
+  - tomato_soup
+
+cleaning:
+  - sponge
+  - cloth
+  - brush
+  - cleaning supply

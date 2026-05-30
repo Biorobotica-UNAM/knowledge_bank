@@ -1,4 +1,4 @@
-# --- NOMBRES ---
+# ATTRIBUTES
 names:
   - james
   - john
@@ -15,7 +15,6 @@ names:
   - laura
   - sophia
 
-# --- ATRIBUTOS ---
 genders:
   - male
   - female
@@ -65,6 +64,7 @@ shirt_colors:
   - pink
   - purple
   - unknown
+
 
 accessories:
   - glasses

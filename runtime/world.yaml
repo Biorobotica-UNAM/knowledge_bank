@@ -214,3 +214,15 @@ customer:
       accessories: [glasses, hat]
       order: [milk, apple, cereal]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+people:
+  type: people
+  entries:
+    - number: 1
+      name: john
+      description: [handsome, old, bold]
+      drink: milk
+      room: living_room
+      accessories: [glasses, hat]
+      order: [milk, apple, cereal]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]

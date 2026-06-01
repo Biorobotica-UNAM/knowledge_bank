@@ -182,7 +182,7 @@ guest:
   entries:
     - number: 1
       name: john
-      description: [handsome, old, bold]
+      description: [male, red shirt, young, short dark hair, serious, no accessories]
       drink: milk
       room: living_room
       accessories: [glasses, hat]

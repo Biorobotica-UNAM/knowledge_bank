@@ -43,9 +43,9 @@ instruct_follow_robot:
   - "Right this way, please."
 
 instruct_follow_person:
-  - "Say CONTINUE and I will start following you."
-  - "I am ready to follow you. Say CONTINUE to begin."
-  - "When you are ready, say CONTINUE and I will follow you."
+  - "Say CONTINUE and I will follow you. Say STOP and I will leave the gift."
+  - "I am ready to follow you. Say CONTINUE to begin. Say STOP where you want me to leave the gift."
+  - "When you are ready, say CONTINUE and I will follow you. Say STOP and I will leave the gift."
 
 instruct_take_a_seat:
   - "Please take a seat here."

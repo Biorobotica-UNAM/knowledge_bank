@@ -1,8 +1,8 @@
 # START
 start_hri:
-  - "Hello, I am {robot.name}. I will welcome the guests."
-  - "Hi, I am {robot.name}. I will guide the guests."
-  - "Greetings, I am {robot.name}. I will receive the guests."
+  - "Hello, I am {robot_name}. I will welcome the guests."
+  - "Hi, I am {robot_name}. I will guide the guests."
+  - "Greetings, I am {robot_name}. I will receive the guests."
 
 # NAVIGATION
 going_to_entrance:
@@ -92,46 +92,46 @@ inform_present:
 
 # ACKNOWLEDGE
 acknowledge_name_1:
-  - "Nice to meet you, {guest.1.name}."
-  - "Hello, {guest.1.name}. Nice to meet you."
-  - "It is great to meet you, {guest.1.name}."
+  - "Nice to meet you, {guest_name_1}."
+  - "Hello, {guest_name_1}. Nice to meet you."
+  - "It is great to meet you, {guest_name_1}."
 
 acknowledge_name_2:
-  - "Nice to meet you, {guest.2.name}."
-  - "Hello, {guest.2.name}. Nice to meet you."
-  - "It is great to meet you, {guest.2.name}."
+  - "Nice to meet you, {guest_name_2}."
+  - "Hello, {guest_name_2}. Nice to meet you."
+  - "It is great to meet you, {guest_name_2}."
 
 acknowledge_drink_1:
-  - "{guest.1.drink} is a great choice."
-  - "I will remember that you like {guest.1.drink}."
-  - "Thank you. I noted that you like {guest.1.drink}."
+  - "{guest_drink_1} is a great choice."
+  - "I will remember that you like {guest_drink_1}."
+  - "Thank you. I noted that you like {guest_drink_1}."
 
 acknowledge_drink_2:
-  - "{guest.2.drink} is a great choice."
-  - "I will remember that you like {guest.2.drink}."
-  - "Thank you. I noted that you like {guest.2.drink}."
+  - "{guest_drink_2} is a great choice."
+  - "I will remember that you like {guest_drink_2}."
+  - "Thank you. I noted that you like {guest_drink_2}."
 
 # INTRODUCTION
 introduce_guest_1:
-  - "{guest.1.name}, please meet {guest.2.name}. {guest.2.name} likes {guest.2.drink}."
-  - "{guest.1.name}, this is {guest.2.name}. {guest.2.name} likes {guest.2.drink}."
-  - "{guest.1.name}, I would like you to meet {guest.2.name}. {guest.2.name} enjoys {guest.2.drink}."
+  - "{guest_name_1}, please meet {guest_name_2}. {guest_name_2} likes {guest_drink_2}."
+  - "{guest_name_1}, this is {guest_name_2}. {guest_name_2} likes {guest_drink_2}."
+  - "{guest_name_1}, I would like you to meet {guest_name_2}. {guest_name_2} enjoys {guest_drink_2}."
 
 introduce_guest_2:
-  - "{guest.2.name}, please meet {guest.1.name}. {guest.1.name} likes {guest.1.drink}."
-  - "{guest.2.name}, this is {guest.1.name}. {guest.1.name} likes {guest.1.drink}."
-  - "{guest.2.name}, I would like you to meet {guest.1.name}. {guest.1.name} enjoys {guest.1.drink}."
+  - "{guest_name_2}, please meet {guest_name_1}. {guest_name_1} likes {guest_drink_1}."
+  - "{guest_name_2}, this is {guest_name_1}. {guest_name_1} likes {guest_drink_1}."
+  - "{guest_name_2}, I would like you to meet {guest_name_1}. {guest_name_1} enjoys {guest_drink_1}."
 
 # DESCRIPTION
 describe_guest_1:
-  - "{guest.1.name} is a {guest.1.description}."
-  - "{guest.1.name} looks like a {guest.1.description}."
-  - "{guest.1.name} appears as a {guest.1.description}."
+  - "{guest_name_1} is a {guest_description_1}."
+  - "{guest_name_1} looks like a {guest_description_1}."
+  - "{guest_name_1} appears as a {guest_description_1}."
 
 describe_guest_2:
-  - "{guest.2.name} is a {guest.2.description}."
-  - "{guest.2.name} looks like a {guest.2.description}."
-  - "{guest.2.name} appears as a {guest.2.description}."
+  - "{guest_name_2} is a {guest_description_2}."
+  - "{guest_name_2} looks like a {guest_description_2}."
+  - "{guest_name_2} appears as a {guest_description_2}."
 
 # FINISH
 finish_hri:

@@ -219,10 +219,10 @@ people:
   type: people
   entries:
     - number: 1
-      name: john
+      name: user
       description: [handsome, old, bold]
       drink: milk
-      room: living_room
+      room: instruction_point
       accessories: [glasses, hat]
       order: [milk, apple, cereal]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]

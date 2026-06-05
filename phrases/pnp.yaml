@@ -223,34 +223,34 @@ inform_drop_location_not_found:
 
 # ACKNOWLEDGE
 acknowledge_tableware_1:
-  - "This is a {object_name_1}."
-  - "I identified the {object_name_1}."
-  - "The object is a {object_name_1}."
+  - "This is a {tableware_name_1}."
+  - "I identified the {tableware_name_1}."
+  - "The object is a {tableware_name_1}."
 
 acknowledge_tableware_2:
-  - "This is a {object_name_2}."
-  - "I identified the {object_name_2}."
-  - "The object is a {object_name_2}."
+  - "This is a {tableware_name_2}."
+  - "I identified the {tableware_name_2}."
+  - "The object is a {tableware_name_2}."
 
 acknowledge_cutlery_1:
-  - "This is a {object_name_3}."
-  - "I identified the {object_name_3}."
-  - "The object is a {object_name_3}."
+  - "This is a {cutlery_name_1}."
+  - "I identified the {cutlery_name_1}."
+  - "The object is a {object_name_1}."
 
 acknowledge_trash_1:
-  - "This is a {object_name_4}."
-  - "I identified the {object_name_4}."
-  - "The object is a {object_name_4}."
+  - "This is a {trash_name_1}."
+  - "I identified the {trash_name_1}."
+  - "The object is a {trash_name_1}."
 
 acknowledge_grocery_1:
-  - "This is a {object_name_5}."
-  - "I identified the {object_name_5}."
-  - "The object is a {object_name_5}."
+  - "This is a {grocery_name_1}."
+  - "I identified the {grocery_name_1}."
+  - "The object is a {grocery_name_1}."
 
 acknowledge_grocery_2:
-  - "This is a {object_name_6}."
-  - "I identified the {object_name_6}."
-  - "The object is a {object_name_6}."
+  - "This is a {grocery_name_2}."
+  - "I identified the {grocery_name_2}."
+  - "The object is a {grocery_name_2}."
 
 acknowledge_breakfast_bowl:
   - "This is a {object_name_7}."

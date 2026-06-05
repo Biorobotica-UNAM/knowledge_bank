@@ -215,11 +215,11 @@ customer:
       order: [milk, apple, cereal]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
-people:
+user:
   type: people
   entries:
     - number: 1
-      name: user
+      name: john
       description: [handsome, old, bold]
       drink: milk
       room: instruction_point

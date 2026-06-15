@@ -40,6 +40,22 @@ known_locations:
   - desk_lamp
   - potted_plant
 
+# --- TABLEWARE ---
+tableware:
+  type: object
+  entries:
+    - number: 1
+      name: cup
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 2
+      name: plate
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
 # --- CUTLERY ---
 cutlery:
   type: object
@@ -50,26 +66,6 @@ cutlery:
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
-    - number: 2
-      name: fork
-      locations: [kitchen_table]
-
-    - number: 3
-      name: knife
-      locations: [kitchen_table]
-
-# --- TABLEWARE ---
-tableware:
-  type: object
-  entries:
-    - number: 1
-      name: cup
-      locations: [kitchen_table]
-
-    - number: 2
-      name: plate
-      locations: [kitchen_table]
-
 # --- TRASH ---
 trash:
   type: object
@@ -77,38 +73,62 @@ trash:
     - number: 1
       name: napkin
       locations: [kitchen_table, trash_bin]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+# --- GROCERY ---
+grocery:
+  type: object
+  entries:
+    - number: 1
+      name: spam
+      locations: [kitchen_table, trash_bin]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 2
+      name: soda can
+      locations: [kitchen_table, trash_bin]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
 
 # --- BREAKFAST ITEMS ---
-breakfast_items:
+bowl:
   type: object
   entries:
     - number: 1
       name: bowl
       locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
-    - number: 2
+spoon:
+  type: object
+  entries:
+    - number: 1
       name: spoon
       locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
-    - number: 3
+mlik:
+  type: object
+  entries:
+    - number: 1
       name: milk
       locations: [cabinet]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
-    - number: 4
-      name: cereal
-      locations: [cabinet]
-
-# --- CABINET OBJECTS ---
-cabinet_objects:
+cereal:
   type: object
   entries:
     - number: 1
       name: cereal
       locations: [cabinet]
-
-    - number: 2
-      name: cleaning_supply
-      locations: [cabinet, desk]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
 # --- DISHWASHER TAB ---
 dishwasher_tab:
@@ -125,6 +145,16 @@ floor_objects:
     - number: 1
       name: napkin
       locations: [trash_bin]
+
+# --- FRUITS
+fruits:
+  type: object
+  entries:
+    - number: 1
+      name: orange
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
 # --- OTHER OBJECTS ---
 objects:

@@ -256,3 +256,26 @@ user:
       accessories: [glasses, hat]
       order: [milk, apple, cereal]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+# --- ANALYTICS ---
+analytics:
+  count:
+    target_class: ""
+    class_count: 0
+    frame_count: 0
+    cumulative: 0
+
+  size:
+    target_class: ""
+    filter_mode: ""
+    best_match: ""
+    confidence: 0.0
+
+  color:
+    target_class: ""
+    color: ""
+    best_match: ""
+
+  compare:
+    classes: ""
+    winner: ""

@@ -1,0 +1,5 @@
+label: CONTINUE
+patterns:
+  - "continue"
+  - "robot continue"
+  - "please continue"

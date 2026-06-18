@@ -1,6 +1,6 @@
 # --- ROBOT ---
 robot:
-  name: Justina
+  name: hsr-26
   room: inspection_point
   left_hand: nothing
   right_hand: nothing

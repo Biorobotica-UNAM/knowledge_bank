@@ -1,227 +1,83 @@
 # START
 start_restaurant:
-  - "Hello, I am {robot_name}. I will serve to the customers today."
+  - "Hello, I am {robot_name}. I will serve the customers today."
   - "Hi, I am {robot_name}. I will take and deliver the orders."
-  - "Greetings, I am {robot_name}. I will attend to the customers."
-
-saving_initial_position:
-  - "Saving my initial position."
-
-
-#DETECTION
-looking_for_customers:
-  - "Searching for customers."
-  - "I am looking for customers."
-  - "I am looking for customers ready to order."
+  - "Greetings, I am {robot_name}. I will attend the customers."
 
 # NAVIGATION
-going_to:
-  - "I am heading to the {location} now."
-  - "Navigating to the {location}."
-  - "Proceeding to the {location}."
-  - "On my way to the {location}."
-  - "I will move toward the {location}."
+going_to_customer:
+  - "Navigating to the customer."
+  - "Heading to the customer."
+  - "Proceeding to the customer."
 
-arrived_at:
-  - "I have arrived at the {location}."
-  - "I am now at the {location}."
-  - "Navigation to the {location} is complete."
-  - "{location} reached."
-  - "I am ready at the {location}."
+reached_customer:
+  - "I arrived at the customer."
+  - "The customer has been reached."
+  - "I am now with the customer."
 
-announce_nav_kitchen_bar:
-  - "I am heading to the kitchen bar."
+going_to_kitchen_bar:
   - "Navigating to the kitchen bar."
+  - "Heading to the kitchen bar."
   - "Proceeding to the kitchen bar."
-  - "I will move toward the kitchen bar."
-  - "Going to the kitchen bar."
-  - "Starting navigation to the kitchen bar."
-  - "I am on my way to the kitchen bar."
-  - "Moving toward the kitchen bar."
-  - "I will navigate to the kitchen bar."
-  - "Heading over to the kitchen bar."
 
-announce_nav_end_kitchen_bar:
-  - "I have arrived at the kitchen bar."
-  - "Now entering the kitchen bar."
-  - "I am in the kitchen bar."
-  - "I have reached the kitchen bar."
-  - "Arrived at the kitchen bar."
-  - "I am now in the kitchen bar area."
-  - "I made it to the kitchen bar."
-  - "This is the kitchen bar."
-  - "I am currently in the kitchen bar."
-  - "kitchen bar reached."
+reached_kitchen_bar:
+  - "I arrived at the kitchen bar."
+  - "The kitchen bar has been reached."
+  - "I am now at the kitchen bar."
 
-announce_nav_customer_1:
-  - "I am heading to the customer one place."
-  - "Navigating to the customer one."
-  - "Proceeding to the customer one area."
-  - "I will move toward the customer one."
-  - "Going to the customer one location."
-  - "Starting navigation to the customer place."
-  - "I am on my way to the customer one place."
-  - "Moving toward the customer one."
-  - "I will navigate to the customer one place."
-  - "Heading to the customer one now."
+# SEARCH
+search_customer_1:
+  - "Let me look for the first customer."
+  - "I will search for the first customer."
+  - "I am looking for the first customer now."
 
-announce_nav_customer_2:
-  - "I am heading to the customer two place."
-  - "Navigating to the customer two."
-  - "Proceeding to the customer two area."
-  - "I will move toward the customer two."
-  - "Going to the customer two location."
-  - "Starting navigation to the customer place."
-  - "I am on my way to the customer two place."
-  - "Moving toward the customer two."
-  - "I will navigate to the customer two place."
-  - "Heading to the customer two now."
+search_customer_2:
+  - "Let me look for the second customer."
+  - "I will search for the second customer."
+  - "I am looking for the second customer now."
 
-announce_nav_end_customer_1:
-  - "I have arrived at the customer one place."
-  - "The customer one place has been reached."
-  - "I am now at the customer one area."
-  - "Navigation to the customer one is complete."
-  - "I successfully reached the customer one place."
-  - "I am positioned at the customer one place."
-  - "The customer one location is reached."
-  - "I am ready at the customer one place."
-  - "customer one place reached successfully."
-  - "I am standing at the customer one place."
+# REQUESTS
+request_place_order_on_tray:
+  - "Please place the order on my tray."
+  - "Could you put the order on my tray, please?"
+  - "Please leave the order on my tray."
 
-announce_nav_end_customer_2:
-  - "I have arrived at the customer two place."
-  - "The customer two place has been reached."
-  - "I am now at the customer two area."
-  - "Navigation to the customer two is complete."
-  - "I successfully reached the customer two place."
-  - "I am positioned at the customer two place."
-  - "The customer two location is reached."
-  - "I am ready at the customer two place."
-  - "customer two place reached successfully."
-  - "I am standing at the customer two place."
-
-# CUSTOMER INTERACTION
-
-introduce_waitress:
-  - "Hello, I am {robot_name}. What would you like to order today?"
-  - "Hello, I am {robot_name}. What can I get for you today?"
-  - "Hi, I am {robot_name}. What would you like to have?"
-  - "Hello, I am {robot_name}. Please tell me your order."
-  - "Hello, I am {robot_name}. What can I bring you?"
-  - "Hi, I am {robot_name}. Please let me know what you would like."
-  - "Hi, I am {robot_name}. What would you like today?" 
-
-arrived_customer_table: 
-  - "I have arrived at your table." 
-  - "I am now at the customer table." 
-  - "Ready to take the order."
+request_take_order_from_tray:
+  - "Please take your order from my tray."
+  - "You may pick up your order from my tray."
+  - "Your order is ready. Please take it from my tray."
 
 # INQUIRY
-# ask_order_item_1:
-#   - "Excuse me, what is your name?"
-#   - "May I know your name, please?"
-#   - "Could you please tell me your name?"
-#   - "Would you mind telling me your name?"
+ask_order:
+  - "What would you like to order?"
+  - "May I take your order?"
+  - "Could you tell me your order, please?"
 
-ask_order: 
-  - "Please tell me your order." 
-  - "What would you like to order?" 
-  - "I am listening to your order." 
-  - "Which items would you like?" 
-  
-ask_repeat: 
-  - "Could you please repeat that?" 
-  - "I did not understand. Please say it again." 
-  - "Sorry, can you repeat your order?" 
-  - "Please speak a little louder." 
+# INFORM
+inform_order_1:
+  - "The customer ordered {customer_order_1}."
+  - "I have an order for {customer_order_1}."
+  - "The requested order is {customer_order_1}."
 
+inform_order_2:
+  - "The customer ordered {customer_order_2}."
+  - "I have an order for {customer_order_2}."
+  - "The requested order is {customer_order_2}."
 
-# CONFIRMATION
-# confirm_name: 
-#   - "Did you say your name is {name}?" 
-#   - "I understood your name as {name}. Is that correct?"
+# ACKNOWLEDGE
+acknowledge_order_1:
+  - "You ordered {customer_order_1}."
+  - "Thank you. I noted your order: {customer_order_1}."
+  - "I have recorded your order: {customer_order_1}."
 
-confirm_order:
-  - "You ordered {order}. Is that correct?"
-  - "Just to confirm, you ordered {order}."
-  - "If I understood correctly, you ordered {order}. Didn´t you?"
-
-confirm_order_1:
-  - "You ordered {customer_order_1}. Is that correct?"
-  - "I heard the following order: {customer_order_1}."
-  - "Your order is {customer_order_1}, correct?"
-  - "Let me repeat your order: {customer_order_1}."
-  - "Just to confirm, you ordered {customer_order_1}."
-  - "I understood that your order is {customer_order_1}."
-  - "You asked for {customer_order_1}."
-  - "Please confirm, your order is {customer_order_1}."
-  - "If I understood correctly, you ordered {customer_order_1}."
-  - "Let me confirm your order: {customer_order_1}."
-
-confirm_order_2:
-  - "You ordered {customer_order_2}. Is that correct?"
-  - "I heard the following order: {customer_order_2}."
-  - "Your order is {customer_order_2}, correct?"
-  - "Let me repeat your order: {customer_order_2}."
-  - "Just to confirm, you ordered {customer_order_2}."
-  - "I understood that your order is {customer_order_2}."
-  - "You asked for {customer_order_2}."
-  - "Please confirm, your order is {customer_order_2}."
-  - "If I understood correctly, you ordered {customer_order_2}."
-  - "Let me confirm your order: {customer_order_2}."
-
-# BARMAN INTERACTION 
-send_order: 
-  - "The customer ordered {order}." 
-  - "I have an order for {order}." 
-  - "The requested order is {order}." 
-  - "Here is the order from the customer: {order}." 
-
-send_order_1:
-  - "Customer one ordered {customer_order_1}."
-  - "My customer one would like {customer_order_1}."
-  - "The order from customer one is {customer_order_1}."
-  - "Customer one asked for {customer_order_1}."
-  - "I have an order for customer one: {customer_order_1}."
-  - "The requested order for customer one is {customer_order_1}."
-  - "My customer one's order is {customer_order_1}."
-  - "Customer one requested {customer_order_1}."
-  - "I am delivering the order information for customer one: {customer_order_1}."
-  - "Here is the order from customer one: {customer_order_1}."
-
-send_order_2:
-  - "Customer two ordered {customer_order_2}."
-  - "My customer two would like {customer_order_2}."
-  - "The order from customer two is {customer_order_2}."
-  - "Customer two asked for {customer_order_2}."
-  - "I have an order for customer two: {customer_order_2}."
-  - "The requested order for customer two is {customer_order_2}."
-  - "My customer two's order is {customer_order_2}."
-  - "Customer two requested {customer_order_2}."
-  - "I am delivering the order information for customer two: {customer_order_2}."
-  - "Here is the order from customer two: {customer_order_2}."
-
-ask_barman_help: 
-  - "Could you please hand me the order?" 
-  - "I need assistance with the order." 
-  - "Please place the objects on the tray." 
-  - "Could you help me prepare the order?" 
-
-
-# INTERACTION
-#identify_category:
-  # - "I found a {object}, which belongs to the {category} category."
-  # - "This is a {object}. Category {category}."
-  # - "I identified a {object}. It is a {category}."
-
-find_object:
-  - "Let me see if there is {object}."
-  - "I am searching for {object}." 
-  - "Looking for {object}."
+acknowledge_order_2:
+  - "You ordered {customer_order_2}."
+  - "Thank you. I noted your order: {customer_order_2}."
+  - "I have recorded your order: {customer_order_2}."
 
 # FINISH
 finish_restaurant:
-  - "I have finished the waiter task. The orders have been delivered."
-  - "All orders are complete. The customers have been served."
-  - "The food has been delivered to the customers."
+  - "I have finished the waiter task."
+  - "All orders have been completed."
+  - "The customers have been served successfully."
+

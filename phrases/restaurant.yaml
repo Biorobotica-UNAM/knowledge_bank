@@ -1,8 +1,8 @@
 # START
 start_restaurant:
-  - "Hello, I am {robot.name}. I will serve the customers today."
-  - "Hi, I am {robot.name}. I will take and deliver the orders."
-  - "Greetings, I am {robot.name}. I will attend the customers."
+  - "Hello, I am {robot_name}. I will serve the customers today."
+  - "Hi, I am {robot_name}. I will take and deliver the orders."
+  - "Greetings, I am {robot_name}. I will attend the customers."
 
 # NAVIGATION
 going_to_customer:

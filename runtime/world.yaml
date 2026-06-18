@@ -112,7 +112,7 @@ spoon:
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
-mlik:
+milk:
   type: object
   entries:
     - number: 1

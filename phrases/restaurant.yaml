@@ -38,14 +38,14 @@ search_customer_2:
 
 # REQUESTS
 request_place_order_on_tray:
-  - "Please place the order on my tray."
-  - "Could you put the order on my tray, please?"
-  - "Please leave the order on my tray."
+  - "Please place the order on my tray. Say continue once you're finished."
+  - "Could you put the order on my tray, please? Say continue once the items are placed."
+  - "Please leave the order on my tray. Say continue when everything is set."
 
 request_take_order_from_tray:
-  - "Please take your order from my tray."
-  - "You may pick up your order from my tray."
-  - "Your order is ready. Please take it from my tray."
+  - "Please take your order from my tray. Say continue when you're finished."
+  - "You may pick up your order from my tray. Say continue once you're done."
+  - "Your order is ready. Please take it from my tray and say continue when you're ready."
 
 # INQUIRY
 ask_order:

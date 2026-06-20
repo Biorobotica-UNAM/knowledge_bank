@@ -55,14 +55,14 @@ ask_order:
 
 # INFORM
 inform_order_1:
-  - "The customer ordered {customer_order_1}."
-  - "I have an order for {customer_order_1}."
-  - "The requested order is {customer_order_1}."
+  - "Hello, barman. The customer ordered {customer_order_1}."
+  - "Good to see you, barman! I have an order for {customer_order_1}."
+  - "Hey, barman! The requested order is {customer_order_1}."
 
 inform_order_2:
-  - "The customer ordered {customer_order_2}."
-  - "I have an order for {customer_order_2}."
-  - "The requested order is {customer_order_2}."
+  - "Good to see you, barman! The customer ordered {customer_order_2}."
+  - "Hey, barman! I have an order for {customer_order_2}."
+  - "Hello, barman. The requested order is {customer_order_2}."
 
 # ACKNOWLEDGE
 acknowledge_order_1:

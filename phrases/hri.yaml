@@ -113,14 +113,14 @@ acknowledge_drink_2:
 
 # INTRODUCTION
 introduce_guest_1:
-  - "{guest_name_1}, please meet {guest_name_2}. {guest_name_2} likes {guest_drink_2}."
-  - "{guest_name_1}, this is {guest_name_2}. {guest_name_2} likes {guest_drink_2}."
-  - "{guest_name_1}, I would like you to meet {guest_name_2}. {guest_name_2} enjoys {guest_drink_2}."
-
-introduce_guest_2:
   - "{guest_name_2}, please meet {guest_name_1}. {guest_name_1} likes {guest_drink_1}."
   - "{guest_name_2}, this is {guest_name_1}. {guest_name_1} likes {guest_drink_1}."
   - "{guest_name_2}, I would like you to meet {guest_name_1}. {guest_name_1} enjoys {guest_drink_1}."
+
+introduce_guest_2:
+  - "{guest_name_1}, please meet {guest_name_2}. {guest_name_2} likes {guest_drink_2}."
+  - "{guest_name_1}, this is {guest_name_2}. {guest_name_2} likes {guest_drink_2}."
+  - "{guest_name_1}, I would like you to meet {guest_name_2}. {guest_name_2} enjoys {guest_drink_2}."
 
 # DESCRIPTION
 describe_guest_1:

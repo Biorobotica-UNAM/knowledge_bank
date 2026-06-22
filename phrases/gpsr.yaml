@@ -1,0 +1,14 @@
+biggest_category:
+  - "The biggest {analytics:target_class:size} is {analytics:best_match:size}"
+  - "The largest {analytics:target_class:size} in this category is {analytics:best_match:size}"
+  - "Among all {analytics:target_class:size, the biggest one is {analytics:best_match:size}"
+
+smallest_category:
+  - "The smallest {analytics:target_class:size} is {analytics:best_match:size}"
+  - "The smallest {analytics:target_class:size} in this category is {analytics:best_match:size}"
+  - "Among all {analytics:target_class:size}, the smallest one is {analytics:best_match:size}"
+
+count_category:
+  - "There are {analytics:current_count:count} elements of {analytics:target_class:count}"
+  - "The total number of {analytics:target_class:count} is {analytics:current_count:count}"
+  - "We found {analytics:current_count:count} items belonging to {analytics:target_class:count}"

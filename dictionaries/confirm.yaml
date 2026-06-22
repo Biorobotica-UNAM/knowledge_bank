@@ -1,4 +1,8 @@
 label: CONFIRM
 patterns:
-  - "yes"
   - "no"
+  - "wrong"
+  - "that's wrong"
+  - "that's incorrect"
+  - "robot no"
+  - "false"

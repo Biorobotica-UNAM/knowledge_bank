@@ -40,6 +40,16 @@ known_locations:
   - desk_lamp
   - potted_plant
 
+# --- SAFE DROP TARGET ---
+safe_drop:
+  type: object
+  entries:
+    - number: 1
+      name: safe_drop
+      locations: []
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+
 # --- TABLEWARE ---
 tableware:
   type: object

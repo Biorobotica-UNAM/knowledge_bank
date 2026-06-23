@@ -257,6 +257,15 @@ people:
       order: [milk, apple, cereal]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
+# --- USER (GPSR task-giver, cross-referenced from guest registration) ---
+user:
+  type: people
+  entries:
+    - number: 1
+      name: ""
+      description: []
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
 # --- ANALYTICS ---
 analytics:
   count:

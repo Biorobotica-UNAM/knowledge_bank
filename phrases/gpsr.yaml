@@ -8,7 +8,27 @@ smallest_category:
   - "The smallest {analytics:target_class:size} in this category is {analytics:best_match:size}"
   - "Among all {analytics:target_class:size}, the smallest one is {analytics:best_match:size}"
 
+heaviest_category:
+  - "The heaviest {analytics:target_class:size} is {analytics:best_match:size}"
+  - "I estimate the heaviest {analytics:target_class:size} is {analytics:best_match:size}"
+
+lightest_category:
+  - "The lightest {analytics:target_class:size} is {analytics:best_match:size}"
+  - "I estimate the lightest {analytics:target_class:size} is {analytics:best_match:size}"
+
+thinnest_category:
+  - "The thinnest {analytics:target_class:size} is {analytics:best_match:size}"
+  - "I estimate the thinnest {analytics:target_class:size} is {analytics:best_match:size}"
+
+team_name:
+  - "My team's name is Pumas UNAM."
+  - "We are team Pumas UNAM."
+
 count_category:
   - "There are {analytics:class_count:count} elements of {analytics:target_class:count}"
   - "The total number of {analytics:target_class:count} is {analytics:class_count:count}"
   - "We found {analytics:class_count:count} items belonging to {analytics:target_class:count}"
+
+gesture_category:
+  - "The person is {analytics:gesture:gesture}"
+  - "I observed that the person is {analytics:gesture:gesture}"

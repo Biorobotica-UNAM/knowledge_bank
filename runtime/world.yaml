@@ -298,3 +298,8 @@ analytics:
   compare:
     classes: ""
     winner: ""
+
+  gesture:
+    target: "person"
+    gesture: "unknown"
+    detail: ""

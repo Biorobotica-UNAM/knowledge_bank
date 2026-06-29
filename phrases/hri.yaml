@@ -47,6 +47,11 @@ instruct_follow_person:
   - "I am ready to follow you. Say CONTINUE to begin."
   - "When you are ready, say CONTINUE and I will follow you."
 
+instruct_follow_only:
+  - "Say CONTINUE and I will start following you. Say STOP when you want me to stop."
+  - "I am ready to follow you. Say CONTINUE to begin, and STOP when I should stop."
+  - "When you are ready, say CONTINUE and I will follow you until you say STOP."
+
 instruct_take_a_seat:
   - "Please take a seat here."
   - "You may sit here."

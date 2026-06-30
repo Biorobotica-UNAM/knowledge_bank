@@ -1,31 +1,38 @@
-# START
 start_robot_inspection:
-  - "I am {robot_name}. I will now begin the robot inspection test."
-  - "Starting the robot inspection test."
-  - "Beginning the robot inspection procedure now."
+  - "My name is {robot_name}. I am in the robot inspection test."
+  - "Hello, I am {robot_name}. I am ready for the robot inspection test."
+  - "I am {robot_name}. Starting the robot inspection test now."
 
-# NAVIGATION
-going_to:
-  - "I am heading to the {location} now."
-  - "Navigating to the {location}."
-  - "Proceeding to the {location}."
-  - "On my way to the {location}."
-  - "I will move toward the {location}."
+check_door:
+  - "I will check the door now."
+  - "Checking the door."
+  - "I am verifying the door status."
 
-arrived_at:
-  - "I have arrived at the {location}."
-  - "I am now at the {location}."
-  - "Navigation to the {location} is complete."
-  - "{location} reached."
-  - "I am ready at the {location}."
+going_to_inspection_point:
+  - "I am going to the inspection point."
+  - "Navigating to the inspection point."
+  - "Proceeding to the inspection point."
 
-# INSTRUCTIONS
+reached_inspection_point:
+  - "I have arrived at the inspection point."
+  - "Inspection point reached."
+  - "I am now at the inspection point."
+
+going_to_exit:
+  - "I am going to the exit."
+  - "Navigating to the exit."
+  - "Proceeding to the exit."
+
+reached_exit:
+  - "I have arrived at the exit."
+  - "Exit reached."
+  - "I am now at the exit."
+
 wait_for_command_continue:
-  - "Please say 'continue' to proceed."
-  - "I am waiting for the word 'continue'."
-  - "Kindly say 'continue' when you are ready."
+  - "Please say, continue, to proceed."
+  - "I am waiting for the word, continue."
+  - "Kindly say, continue,  when you are ready."
 
-# FINISH
 finish_robot_inspection:
   - "The robot inspection test is now complete."
   - "I have finished the inspection procedure."

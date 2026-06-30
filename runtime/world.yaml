@@ -303,3 +303,357 @@ analytics:
     target: "person"
     gesture: "unknown"
     detail: ""
+
+
+# ---- GPSR OBJECTS FOR FIND_OBJECT/TAKE/ETC. ----
+
+cola:
+  type: object
+  entries:
+    - number: 1
+      name: cola
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+iced_tea:
+  type: object
+  entries:
+    - number: 1
+      name: iced_tea
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+juice_pack:
+  type: object
+  entries:
+    - number: 1
+      name: juice_pack
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+milk:
+  type: object
+  entries:
+    - number: 1
+      name: milk
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+orange_juice:
+  type: object
+  entries:
+    - number: 1
+      name: orange_juice
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+red_wine:
+  type: object
+  entries:
+    - number: 1
+      name: red_wine
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+tropical_juice:
+  type: object
+  entries:
+    - number: 1
+      name: tropical_juice
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+chocolate_jello:
+  type: object
+  entries:
+    - number: 1
+      name: chocolate_jello
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+coffee_grounds:
+  type: object
+  entries:
+    - number: 1
+      name: coffee_grounds
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+mustard:
+  type: object
+  entries:
+    - number: 1
+      name: mustard
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+spam:
+  type: object
+  entries:
+    - number: 1
+      name: spam
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+strawberry_jello:
+  type: object
+  entries:
+    - number: 1
+      name: strawberry_jello
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+sugar:
+  type: object
+  entries:
+    - number: 1
+      name: sugar
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+tomato_soup:
+  type: object
+  entries:
+    - number: 1
+      name: tomato_soup
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+tuna:
+  type: object
+  entries:
+    - number: 1
+      name: tuna
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+apple:
+  type: object
+  entries:
+    - number: 1
+      name: apple
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+banana:
+  type: object
+  entries:
+    - number: 1
+      name: banana
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+lemon:
+  type: object
+  entries:
+    - number: 1
+      name: lemon
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+orange:
+  type: object
+  entries:
+    - number: 1
+      name: orange
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+peach:
+  type: object
+  entries:
+    - number: 1
+      name: peach
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+pear:
+  type: object
+  entries:
+    - number: 1
+      name: pear
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+plum:
+  type: object
+  entries:
+    - number: 1
+      name: plum
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+strawberry:
+  type: object
+  entries:
+    - number: 1
+      name: strawberry
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+cheezit:
+  type: object
+  entries:
+    - number: 1
+      name: cheezit
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+cornflakes:
+  type: object
+  entries:
+    - number: 1
+      name: cornflakes
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+pringles:
+  type: object
+  entries:
+    - number: 1
+      name: pringles
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+baseball:
+  type: object
+  entries:
+    - number: 1
+      name: baseball
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+dice:
+  type: object
+  entries:
+    - number: 1
+      name: dice
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+rubiks_cube:
+  type: object
+  entries:
+    - number: 1
+      name: rubiks_cube
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+soccer_ball:
+  type: object
+  entries:
+    - number: 1
+      name: soccer_ball
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+tennis_ball:
+  type: object
+  entries:
+    - number: 1
+      name: tennis_ball
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+cleanser:
+  type: object
+  entries:
+    - number: 1
+      name: cleanser
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+sponge:
+  type: object
+  entries:
+    - number: 1
+      name: sponge
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+bowl:
+  type: object
+  entries:
+    - number: 1
+      name: bowl
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+cup:
+  type: object
+  entries:
+    - number: 1
+      name: cup
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+fork:
+  type: object
+  entries:
+    - number: 1
+      name: fork
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+knife:
+  type: object
+  entries:
+    - number: 1
+      name: knife
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+plate:
+  type: object
+  entries:
+    - number: 1
+      name: plate
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+spoon:
+  type: object
+  entries:
+    - number: 1
+      name: spoon
+      locations: [kitchen_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]

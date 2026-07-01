@@ -57,6 +57,16 @@ instruct_take_a_seat:
   - "You may sit here."
   - "This seat is available for you."
 
+instruct_command_continue:
+  - "Please say, continue, to proceed."
+  - "I am waiting for the word, continue."
+  - "Kindly say, continue, to start test."
+
+instruct_look_at:
+  - "Please look at me."
+  - "Please look at my camera."
+  - "Please keep looking at me."
+
 # INQUIRY
 ask_name:
   - "What is your name?"

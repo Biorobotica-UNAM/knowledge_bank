@@ -16,6 +16,7 @@ known_locations:
   - office
   - corridor
   - kitchen_table
+  - dinner_table
   - refrigerator
   - sink
   - bed
@@ -55,14 +56,50 @@ tableware:
   type: object
   entries:
     - number: 1
-      name: cup
-      locations: [kitchen_table]
+      name: red bowl
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
     - number: 2
-      name: plate
-      locations: [kitchen_table]
+      name: red plate
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 3
+      name: mug
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 4
+      name: cup
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 5
+      name: bowl
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 6
+      name: plastic bowl
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 7
+      name: plastic mug
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 8
+      name: glass cup
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -72,7 +109,37 @@ cutlery:
   entries:
     - number: 1
       name: spoon
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 2
+      name: fork
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 3
+      name: knife
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 4
+      name: chopsticks
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 5
+      name: metal spoon
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 6
+      name: plastic fork
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -82,7 +149,7 @@ trash:
   entries:
     - number: 1
       name: napkin
-      locations: [kitchen_table, trash_bin]
+      locations: [kitchen_table, trash_bin, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -92,13 +159,13 @@ grocery:
   entries:
     - number: 1
       name: spam
-      locations: [kitchen_table, trash_bin]
+      locations: [kitchen_table, trash_bin, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
     - number: 2
       name: soda can
-      locations: [kitchen_table, trash_bin]
+      locations: [kitchen_table, trash_bin, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -109,7 +176,7 @@ bowl:
   entries:
     - number: 1
       name: bowl
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -118,7 +185,7 @@ spoon:
   entries:
     - number: 1
       name: spoon
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -140,13 +207,50 @@ cereal:
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
+# --- ROBOCUP2026 ---
+
+fabric:
+  type: object
+  entries:
+    - number: 1
+      name: blue shirt
+      locations: [laundry_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 2
+      name: grey shirt
+      locations: [laundry_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 3
+      name: white shirt
+      locations: [laundry_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 4
+      name: black shirt
+      locations: [laundry_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 5
+      name: hand towel
+      locations: [laundry_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+
+
 # --- DISHWASHER TAB ---
 dishwasher_tab:
   type: object
   entries:
     - number: 1
       name: dishwasher_tab
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
 
 # --- FLOOR OBJECTS ---
 floor_objects:
@@ -161,8 +265,38 @@ fruits:
   type: object
   entries:
     - number: 1
-      name: orange
-      locations: [kitchen_table]
+      name: red apple
+      locations: [kitchen_table, shelf, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 2
+      name: mangostane
+      locations: [kitchen_table, shelf, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 3
+      name: red bellpepper
+      locations: [kitchen_table, shelf, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 4
+      name: peach
+      locations: [kitchen_table, shelf, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 5
+      name: yellow lemon
+      locations: [kitchen_table, shelf, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 6
+      name: yellow bellpepper
+      locations: [kitchen_table, shelf, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -172,13 +306,13 @@ objects:
   entries:
     - number: 1
       name: apple
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
     - number: 2
       name: banana
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
 
     - number: 3
       name: orange
@@ -206,7 +340,7 @@ objects:
 
     - number: 9
       name: dish
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
 
     - number: 10
       name: toy
@@ -305,6 +439,384 @@ analytics:
     detail: ""
 
 
+# ---- OWLV2 CATEGORY OBJECTS ----
+
+drinks:
+  type: object
+  entries:
+    - number: 1
+      name: coke can
+      locations: [kitchen_table, cabinet, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 2
+      name: red bull can
+      locations: [kitchen_table, cabinet, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 3
+      name: coke zero can
+      locations: [kitchen_table, cabinet, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 4
+      name: pepsi bottle
+      locations: [kitchen_table, cabinet, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 5
+      name: milk carton
+      locations: [kitchen_table, cabinet, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 6
+      name: soju bottle
+      locations: [kitchen_table, cabinet, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+snacks:
+  type: object
+  entries:
+    - number: 1
+      name: pringles
+      locations: [shelf]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 2
+      name: seaweed snack
+      locations: [shelf]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+food:
+  type: object
+  entries:
+    - number: 1
+      name: blue container cornflakes
+      locations: [shelf, coffee_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 2
+      name: instant noodles
+      locations: [shelf, coffee_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 3
+      name: black container cornflakes
+      locations: [shelf, coffee_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+cleaning_supply:
+  type: object
+  entries:
+    - number: 1
+      name: sponge
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 2
+      name: dishwasher tablet
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 3
+      name: toothpaste
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+containers:
+  type: object
+  entries:
+    - number: 1
+      name: backpack
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 2
+      name: handbag
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 3
+      name: suitcase
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 4
+      name: box
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 5
+      name: basket
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 6
+      name: dishwasher
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 7
+      name: washing machine
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+container_drop:
+  type: object
+  entries:
+    - number: 1
+      name: bucket
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 2
+      name: red bucket
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 3
+      name: trash can
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 4
+      name: waste basket
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 5
+      name: plastic bin
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 6
+      name: container
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 7
+      name: open container
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 8
+      name: storage bin
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 9
+      name: box
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 10
+      name: basket
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+electrodomestics:
+  type: object
+  entries:
+    - number: 1
+      name: fridge
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 2
+      name: oven
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 3
+      name: microwave
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 4
+      name: toaster
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 5
+      name: kettle
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 6
+      name: coffee maker
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+toys:
+  type: object
+  entries:
+    - number: 1
+      name: rubiks cube
+      locations: [bed]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+groceries:
+  type: object
+  entries:
+    - number: 1
+      name: coke can
+      locations: [kitchen_table, cabinet, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 2
+      name: red bull can
+      locations: [kitchen_table, cabinet, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 3
+      name: coke zero can
+      locations: [kitchen_table, cabinet, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 4
+      name: pepsi bottle
+      locations: [kitchen_table, cabinet, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 5
+      name: milk carton
+      locations: [kitchen_table, cabinet, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 6
+      name: soju bottle
+      locations: [kitchen_table, cabinet, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 7
+      name: pringles
+      locations: [shelf]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 8
+      name: seaweed snack
+      locations: [shelf]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 9
+      name: blue shirt
+      locations: [laundry_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 10
+      name: grey shirt
+      locations: [laundry_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 11
+      name: white shirt
+      locations: [laundry_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 12
+      name: black shirt
+      locations: [laundry_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 13
+      name: hand towel
+      locations: [laundry_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 14
+      name: blue container cornflakes
+      locations: [shelf, coffee_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 15
+      name: instant noodles
+      locations: [shelf, coffee_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 16
+      name: black container cornflakes
+      locations: [shelf, coffee_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 17
+      name: sponge
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 18
+      name: dishwasher tablet
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 19
+      name: toothpaste
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 20
+      name: rubiks cube
+      locations: [bed]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+
 # ---- GPSR OBJECTS FOR FIND_OBJECT/TAKE/ETC. ----
 
 cola:
@@ -312,7 +824,7 @@ cola:
   entries:
     - number: 1
       name: cola
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -321,7 +833,7 @@ iced_tea:
   entries:
     - number: 1
       name: iced_tea
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -330,7 +842,7 @@ juice_pack:
   entries:
     - number: 1
       name: juice_pack
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -339,7 +851,7 @@ milk:
   entries:
     - number: 1
       name: milk
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -348,7 +860,7 @@ orange_juice:
   entries:
     - number: 1
       name: orange_juice
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -357,7 +869,7 @@ red_wine:
   entries:
     - number: 1
       name: red_wine
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -366,7 +878,7 @@ tropical_juice:
   entries:
     - number: 1
       name: tropical_juice
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -375,7 +887,7 @@ chocolate_jello:
   entries:
     - number: 1
       name: chocolate_jello
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -384,7 +896,7 @@ coffee_grounds:
   entries:
     - number: 1
       name: coffee_grounds
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -393,7 +905,7 @@ mustard:
   entries:
     - number: 1
       name: mustard
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -402,7 +914,7 @@ spam:
   entries:
     - number: 1
       name: spam
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -411,7 +923,7 @@ strawberry_jello:
   entries:
     - number: 1
       name: strawberry_jello
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -420,7 +932,7 @@ sugar:
   entries:
     - number: 1
       name: sugar
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -429,7 +941,7 @@ tomato_soup:
   entries:
     - number: 1
       name: tomato_soup
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -438,7 +950,7 @@ tuna:
   entries:
     - number: 1
       name: tuna
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -447,7 +959,7 @@ apple:
   entries:
     - number: 1
       name: apple
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -456,7 +968,7 @@ banana:
   entries:
     - number: 1
       name: banana
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -465,7 +977,7 @@ lemon:
   entries:
     - number: 1
       name: lemon
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -474,7 +986,7 @@ orange:
   entries:
     - number: 1
       name: orange
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -483,7 +995,7 @@ peach:
   entries:
     - number: 1
       name: peach
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -492,7 +1004,7 @@ pear:
   entries:
     - number: 1
       name: pear
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -501,7 +1013,7 @@ plum:
   entries:
     - number: 1
       name: plum
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -510,7 +1022,7 @@ strawberry:
   entries:
     - number: 1
       name: strawberry
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -519,7 +1031,7 @@ cheezit:
   entries:
     - number: 1
       name: cheezit
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -528,7 +1040,7 @@ cornflakes:
   entries:
     - number: 1
       name: cornflakes
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -537,7 +1049,7 @@ pringles:
   entries:
     - number: 1
       name: pringles
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -546,7 +1058,7 @@ baseball:
   entries:
     - number: 1
       name: baseball
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -555,7 +1067,7 @@ dice:
   entries:
     - number: 1
       name: dice
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -564,7 +1076,7 @@ rubiks_cube:
   entries:
     - number: 1
       name: rubiks_cube
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -573,7 +1085,7 @@ soccer_ball:
   entries:
     - number: 1
       name: soccer_ball
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -582,7 +1094,7 @@ tennis_ball:
   entries:
     - number: 1
       name: tennis_ball
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -591,7 +1103,7 @@ cleanser:
   entries:
     - number: 1
       name: cleanser
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -600,7 +1112,7 @@ sponge:
   entries:
     - number: 1
       name: sponge
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -609,7 +1121,7 @@ bowl:
   entries:
     - number: 1
       name: bowl
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -618,7 +1130,7 @@ cup:
   entries:
     - number: 1
       name: cup
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -627,7 +1139,7 @@ fork:
   entries:
     - number: 1
       name: fork
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -636,7 +1148,7 @@ knife:
   entries:
     - number: 1
       name: knife
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -645,7 +1157,7 @@ plate:
   entries:
     - number: 1
       name: plate
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
@@ -654,6 +1166,6 @@ spoon:
   entries:
     - number: 1
       name: spoon
-      locations: [kitchen_table]
+      locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]

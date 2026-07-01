@@ -268,4 +268,4 @@ get_back_bar_position:
 request_take_order_from_tray:
   - "Please take your order from the tray."
   - "Your order is ready. Please take it from the tray."
-  - "Here is your order. Please take it from the tray.
+  - "Here is your order. Please take it from the tray."

@@ -43,9 +43,9 @@ instruct_follow_robot:
   - "Right this way, please."
 
 instruct_follow_person:
-  - "Say CONTINUE and I will start following you."
-  - "I am ready to follow you. Say CONTINUE to begin."
-  - "When you are ready, say CONTINUE and I will follow you."
+  - "Please stand in front of me and say CONTINUE to start following you"
+  - "Stand in front of me. Say CONTINUE to begin."
+  - "When you are in front of me, say CONTINUE and I will follow you."
 
 instruct_follow_only:
   - "Say CONTINUE and I will start following you. Say STOP when you want me to stop."

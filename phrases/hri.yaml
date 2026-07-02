@@ -43,9 +43,9 @@ instruct_follow_robot:
   - "Right this way, please."
 
 instruct_follow_person:
-  - "Say CONTINUE and I will start following you."
-  - "I am ready to follow you. Say CONTINUE to begin."
-  - "When you are ready, say CONTINUE and I will follow you."
+  - "Please stand in front of me and say CONTINUE to start following you"
+  - "Stand in front of me. Say CONTINUE to begin."
+  - "When you are in front of me, say CONTINUE and I will follow you."
 
 instruct_follow_only:
   - "Say CONTINUE and I will start following you. Say STOP when you want me to stop."
@@ -56,6 +56,16 @@ instruct_take_a_seat:
   - "Please take a seat here."
   - "You may sit here."
   - "This seat is available for you."
+
+instruct_command_continue:
+  - "Please say, continue, to proceed."
+  - "I am waiting for the word, continue."
+  - "Kindly say, continue, to start test."
+
+instruct_look_at:
+  - "Please look at me."
+  - "Please look at my camera."
+  - "Please keep looking at me."
 
 # INQUIRY
 ask_name:

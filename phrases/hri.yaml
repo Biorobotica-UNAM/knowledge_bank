@@ -37,15 +37,20 @@ request_hand_gift:
   - "Please pass me the gift."
 
 # INSTRUCTIONS
+instruct_command_continue:
+  - "Say CONTINUE to begin."
+  - "Whenever you're ready say CONTINUE to begin."
+  - "Say CONTINUE to start the test."
+  
 instruct_follow_robot:
   - "Please follow me."
   - "Come with me and I will guide you."
   - "Right this way, please."
 
 instruct_follow_person:
-  - "Please stand in front of me and say CONTINUE to start following you"
-  - "Stand in front of me. Say CONTINUE to begin."
-  - "When you are in front of me, say CONTINUE and I will follow you."
+  - "Stand in front of me. Say CONTINUE and wait until I start following you."
+  - "Please stand in front of me and stand still until I follow you. Say CONTINUE to begin."
+  - "Whenever you are in front of me, say CONTINUE and wait until I follow you."
 
 instruct_follow_only:
   - "Say CONTINUE and I will start following you. Say STOP when you want me to stop."
@@ -56,16 +61,6 @@ instruct_take_a_seat:
   - "Please take a seat here."
   - "You may sit here."
   - "This seat is available for you."
-
-instruct_command_continue:
-  - "Please say, continue, to proceed."
-  - "I am waiting for the word, continue."
-  - "Kindly say, continue, to start test."
-
-instruct_look_at:
-  - "Please look at me."
-  - "Please look at my camera."
-  - "Please keep looking at me."
 
 # INQUIRY
 ask_name:
@@ -104,6 +99,10 @@ inform_present:
   - "Your guest brought this present for you."
   - "This present is from your guest."
   - "Your guest asked me to give you this present."
+
+# WARNING
+warning_move:
+  - "Watch out, I will move forward" 
 
 # ACKNOWLEDGE
 acknowledge_name_1:

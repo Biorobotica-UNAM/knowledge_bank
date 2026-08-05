@@ -40,9 +40,9 @@ acknowledge_cloth:
   - "The clothes have been detected."
 
 move_to_table:
-  - "I am carrying the cloth to the kitchen table now."
+  - "I am carrying the cloth to the laundry table now."
   - "Navigating to the table to place the garments."
-  - "Moving toward the kitchen table."
+  - "Moving toward the laundry table."
 
 # ── MACRO STATE: FINISH_LAUNDRY ───────────────────────────────────────────────
 finish_laundry:

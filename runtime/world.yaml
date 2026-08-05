@@ -265,10 +265,10 @@ fruits:
   type: object
   entries:
     - number: 1
-      name: red apple
+      name: red pepper
       locations: [kitchen_table, shelf, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.51, -0.21, 0.65, 0.0, -0.7071, 0.0, 0.7071]
 
     - number: 2
       name: mangostane
@@ -495,6 +495,21 @@ snacks:
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
+basket:
+  type: object
+  entries:
+    - number: 1
+      name: basket
+      locations: [shelf, coffee_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    - number: 2
+      name: basket bin
+      locations: [shelf, coffee_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
 food:
   type: object
   entries:
@@ -565,18 +580,12 @@ containers:
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
     - number: 5
-      name: basket
-      locations: [kitchen_table, dinner_table]
-      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-
-    - number: 6
       name: dishwasher
       locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
       manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
-    - number: 7
+    - number: 6
       name: washing machine
       locations: [kitchen_table, dinner_table]
       navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]

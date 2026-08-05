@@ -84,9 +84,9 @@ clean_trash:
 
 # ORGANIZE
 organize_groceries:
-  - "I will organize the groceries."
-  - "I am starting to organize the groceries."
-  - "I will place the groceries in the cabinet."
+  - "I will organize the groceries. Please pay attention at my screen while I identify the objects."
+  - "I am starting to organize the groceries. Please look at my screen while I identify the objects."
+  - "I will place the groceries in the cabinet. Please look at my screen as I declare the objects."
 
 organize_other_items:
   - "I will organize the remaining items."
@@ -161,6 +161,11 @@ search_trash_bin_space:
   - "I will look for space in the trash bin."
 
 # INFORM
+inform_identify:
+  - "Please pay attention at my screen while I identify and declare the objects."
+  - "Please look at my screen while I identify and declare the objects."
+  - "Please look at my screen as I identify and declare the objects."
+
 inform_cutlery_found:
   - "I found the cutlery."
   - "The cutlery is here."
@@ -252,6 +257,9 @@ acknowledge_grocery_2:
   - "I identified the {grocery_name_2}."
   - "The object is a {grocery_name_2}."
 
+acknowledge_fruits_1:
+  - "This is a {fruits_name_1}."
+
 acknowledge_breakfast_bowl:
   - "This is a {object_name_7}."
   - "I identified the {object_name_7}."
@@ -271,6 +279,11 @@ acknowledge_breakfast_cereal:
   - "This is a {object_name_10}."
   - "I identified the {object_name_10}."
   - "The object is a {object_name_10}."
+
+acknowledge_dishwasher_tab_1:
+  - "There is a dishwasher tab."
+  - "I identified the dishwasher tab."
+  - "The object is a dishwasher tab." 
 
 # MOVE
 move_tableware_to_dishwasher:

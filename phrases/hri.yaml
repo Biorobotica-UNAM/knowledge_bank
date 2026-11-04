@@ -115,6 +115,21 @@ acknowledge_name_2:
   - "Hello, {guest_name_2}. Nice to meet you."
   - "It is great to meet you, {guest_name_2}."
 
+acknowledge_name_last:
+  - "Nice to meet you, {guest_name_last}."
+  - "Hello, {guest_name_last}. Nice to meet you."
+  - "It is great to meet you, {guest_name_last}."
+
+saved_name:
+  - "Your name is {guest_name_last}."
+  - "The person's name is {guest_name_last}."
+  - "I remember that their name is {guest_name_last}."
+
+greet:
+  - "Hello! Nice to meet you."
+  - "Hi there! How are you doing today?"
+  - "Greetings! It is a pleasure to see you."
+
 acknowledge_drink_1:
   - "{guest_drink_1} is a great choice."
   - "I will remember that you like {guest_drink_1}."

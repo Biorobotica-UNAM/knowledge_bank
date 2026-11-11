@@ -828,6 +828,15 @@ groceries:
 
 # ---- GPSR OBJECTS FOR FIND_OBJECT/TAKE/ETC. ----
 
+coffee:
+  type: object
+  entries:
+    - number: 1
+      name: coffee
+      locations: [kitchen_table, dinner_table]
+      navigation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+      manipulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
 cola:
   type: object
   entries:

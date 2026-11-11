@@ -32,3 +32,18 @@ count_category:
 gesture_category:
   - "The person is {analytics:gesture:gesture}"
   - "I observed that the person is {analytics:gesture:gesture}"
+
+team_country:
+  - "My team is from Mexico."
+  - "We are from Mexico."
+  - "My team's country is Mexico."
+
+team_affiliation:
+  - "My team is Pumas UNAM, from the Universidad Nacional Autonoma de Mexico."
+  - "We are team Pumas UNAM. Our affiliation is the National Autonomous University of Mexico."
+  - "My team's affiliation is the National Autonomous University of Mexico, UNAM."
+
+about_yourself:
+  - "My name is Justina. I am a service robot built by team Pumas UNAM, from the National Autonomous University of Mexico."
+  - "I am Justina, a domestic service robot from the Biorobotics Laboratory of UNAM in Mexico."
+  - "Hello, I am Justina. I help people at home with tasks like fetching objects and guiding guests. I was made by team Pumas UNAM."
